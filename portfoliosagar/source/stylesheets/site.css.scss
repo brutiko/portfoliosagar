@@ -19,6 +19,7 @@ body {
 
 .menu {
   padding-top: 14px;
+  float: left;
 
   h1 {
     text-indent: -10000px;
@@ -57,15 +58,18 @@ body {
 .social-media {
   list-style: none;
   float: right;
+  padding-top: 20px;
 
   li {
-    display: inline;
+    display: inline-block;
+    margin: 0 5px;
   }
 
   a {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     text-indent: -10000px;
+    display: block;
   }
 
   .linkedin { background: url(/images/social-media-linkedin.png) no-repeat; }
@@ -113,6 +117,7 @@ body {
   font-weight: 100;
   line-height: 38px;
   letter-spacing: 0.0025em;
+  margin-bottom: 60px;
 }
 
 .home span {
@@ -120,7 +125,14 @@ body {
   font-weight: 300;
 }
 
-
+.arrow-down {
+  background: url(/images/arrow-scroll-down.png) no-repeat;
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  text-indent: -10000px;
+  display: block;
+}
 
 
 
