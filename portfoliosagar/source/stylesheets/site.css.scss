@@ -1,5 +1,128 @@
-h1 {
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.menu-wrapper {
+  background: #4b94a2;
+  height: 60px;
+  width: 100%;
+}
+
+.top-menu {
+  width: 80%;
+  margin: auto;
+}
+
+.menu {
+  padding-top: 14px;
+
+  h1 {
+    text-indent: -10000px;
+    background: url(/images/logo-sagar-satam.png) no-repeat;
+    height: 30px;
+    width: 40px;
+    float: left;
+    margin-right: 20px;
+  }
+
+  ul { 
+    list-style: none;
+    margin-top: 6px; 
+  }
+  
+  li { 
+    display: inline; 
+  }
+  
+  a {
+    border-bottom: 8px solid #4b94a2;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    text-decoration: none;
+    padding: 14px 10px;
+    margin: 0 10px;
+  }
+
+  a:hover {
+    border-bottom: 8px solid #14344e;
+  }
+}
+
+.social-media {
+  list-style: none;
+  float: right;
+
+  li {
+    display: inline;
+  }
+
+  a {
+    width: 30px;
+    height: 30px;
+    text-indent: -10000px;
+  }
+
+  .linkedin { background: url(/images/social-media-linkedin.png) no-repeat; }
+  .instagram { background: url(/images/social-media-instagram.png) no-repeat; }
+  .pinterest { background: url(/images/social-media-pinterest.png) no-repeat; }
+  .behance { background: url(/images/social-media-behance.png) no-repeat; }
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 10% 0;
+}
+
+.wrapper.home {
+  background: #53a8b7;
+  height: 100%;
+}
+
+.home h1 {
+  color: #fff;
   font-family: "Nexa", sans-serif;
   font-size: 70px;
   font-weight: 400;
+  letter-spacing: 0.0025em;
 }
+
+.home h1:after {
+  content: "";
+  background: #14344e;
+  display: block;
+  height: 8px;
+  margin: 30px 0; 
+  width: 80px;
+}
+
+.home h2 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 38px;
+  letter-spacing: 0.0025em;
+}
+
+.home span {
+  color: #14344e;
+  font-weight: 300;
+}
+
+
+
+
+
+
+
