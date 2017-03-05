@@ -1,11 +1,19 @@
 @font-face {
-    font-family: Nexa;
-    src: url(/typography/nexa-bold.otf);
+    font-family: 'Nexa';
+    src: url('NexaBold.eot'); /* IE9 Compat Modes */
+    src: url('NexaBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('NexaBold.woff') format('woff'), /* Pretty Modern Browsers */
+         url('NexaBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('NexaBold.svg#svgFontName') format('svg'); /* Legacy iOS */
     font-weight: 400;
 }
 
 @font-face {
-    font-family: Nexa Light;
-    src: url(/typography/nexa-light.otf);
+    font-family: 'Nexa Light';
+    src: url('NexaLight.eot'); /* IE9 Compat Modes */
+    src: url('NexaLight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('NexaLight.woff') format('woff'), /* Pretty Modern Browsers */
+         url('NexaLight.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('NexaLight.svg#svgFontName') format('svg'); /* Legacy iOS */
     font-weight: 200;
 }
