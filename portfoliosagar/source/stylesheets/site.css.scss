@@ -10,6 +10,10 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .menu-wrapper {
   background: #4b94a2;
   height: 60px;
@@ -50,7 +54,6 @@ ul {
     font-size: 12px;
     font-weight: 200;
     letter-spacing: 0.025em;
-    text-decoration: none;
     padding: 17px 8px;
     margin: 0 10px;
   }
@@ -166,7 +169,7 @@ ul {
   background-position: 0 -40px;
 }
 
-.my-work {
+.my-work, .how-i-work {
   background: #f5f5f5;
 }
 
@@ -175,10 +178,6 @@ ul {
 
   li {
     display: inline;  
-  }
-  
-  a {
-    text-decoration: none
   }
 }
 
@@ -269,6 +268,28 @@ ul {
   margin: 40px auto 40px;
   text-align: center;
 }
+
+.about-me img {
+  max-width: 100%;
+  margin: 40px auto 80px;
+  display: block;
+}
+
+.awards-wrapper {
+  width: 80%;
+  margin: auto;
+
+  li {
+    display: inline-block;
+    margin: 0.4%;
+    width: 32%;
+  }
+
+  img {
+    margin: auto;
+  }
+}
+
 
 
 
