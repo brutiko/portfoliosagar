@@ -1,19 +1,19 @@
 @font-face {
     font-family: 'Nexa';
-    src: url('NexaBold.eot'); /* IE9 Compat Modes */
-    src: url('NexaBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('NexaBold.woff') format('woff'), /* Pretty Modern Browsers */
-         url('NexaBold.ttf')  format('truetype'), /* Safari, Android, iOS */
-         url('NexaBold.svg#svgFontName') format('svg'); /* Legacy iOS */
+    src: url('/typography/NexaBold.eot'); /* IE9 Compat Modes */
+    src: url('/typography/NexaBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('/typography/NexaBold.woff') format('woff'), /* Pretty Modern Browsers */
+         url('/typography/NexaBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('/typography/NexaBold.svg#svgFontName') format('svg'); /* Legacy iOS */
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'Nexa Light';
-    src: url('NexaLight.eot'); /* IE9 Compat Modes */
-    src: url('NexaLight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('NexaLight.woff') format('woff'), /* Pretty Modern Browsers */
-         url('NexaLight.ttf')  format('truetype'), /* Safari, Android, iOS */
-         url('NexaLight.svg#svgFontName') format('svg'); /* Legacy iOS */
+    src: url('/typography/NexaLight.eot'); /* IE9 Compat Modes */
+    src: url('/typography/NexaLight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('/typography/NexaLight.woff') format('woff'), /* Pretty Modern Browsers */
+         url('/typography/NexaLight.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('/typography/NexaLight.svg#svgFontName') format('svg'); /* Legacy iOS */
     font-weight: 200;
 }
