@@ -20,6 +20,7 @@ body {
 .menu {
   padding-top: 14px;
   float: left;
+  width: 80%;
 
   h1 {
     text-indent: -10000px;
@@ -40,18 +41,19 @@ body {
   }
   
   a {
-    border-bottom: 8px solid #4b94a2;
+    border-bottom: 6px solid transparent;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 200;
+    letter-spacing: 0.025em;
     text-decoration: none;
-    padding: 14px 10px;
+    padding: 17px 8px;
     margin: 0 10px;
   }
 
   a:hover {
-    border-bottom: 8px solid #14344e;
+    border-bottom: 6px solid #14344e;
   }
 }
 
@@ -134,6 +136,9 @@ body {
   display: block;
 }
 
+.arrow-down:hover {
+  background-position: 0 -40px;
+}
 
 
 
