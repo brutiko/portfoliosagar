@@ -122,13 +122,16 @@ a {
   letter-spacing: 0.00015em;
 }
 
-.wrapper.home {
+.wrapper#home {
   background: #53a8b7;
-  /*background: #607D8B;*/
   height: 100%;
 }
 
-.home h1 {
+#home .content {
+  padding-top: 80px;
+}
+
+#home h1 {
   color: #fff;
   font-family: "Nexa", sans-serif;
   font-size: 64px;
@@ -137,7 +140,7 @@ a {
   line-height: 66px;
 }
 
-.home h1:after {
+#home h1:after {
   content: "";
   background: #14344e;
   display: block;
@@ -146,7 +149,7 @@ a {
   width: 80px;
 }
 
-.home h2 {
+#home h2 {
   color: #fff;
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
@@ -156,7 +159,7 @@ a {
   margin-bottom: 60px;
 }
 
-.home span {
+#home span {
   color: #14344e;
   font-weight: 300;
 }
@@ -174,7 +177,7 @@ a {
   background-position: 0 -40px;
 }
 
-.my-work, .how-i-work, .contact-me {
+#my-work, #how-i-work, #contact-me {
   background: #f5f5f5;
 }
 
@@ -274,13 +277,18 @@ a {
   text-align: center;
 }
 
-.about-me img {
+#about-me {
+  scroll-behavior: smooth;
+  overflow-x: scroll;
+}
+
+#about-me img {
   max-width: 100%;
   margin: 40px auto 80px;
   display: block;
 }
 
-.awards-wrapper {
+#about-me .awards-wrapper {
   width: 80%;
   margin: auto;
 
