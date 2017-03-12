@@ -52,7 +52,7 @@ a {
     margin: 0 10px;
   }
 
-  a:hover, a:active {
+  a:hover, a:active, a.active {
     border-bottom: 6px solid #14344e;
   }
 }

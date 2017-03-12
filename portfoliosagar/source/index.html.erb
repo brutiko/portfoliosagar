@@ -7,12 +7,12 @@ title: Welcome to Middleman
     <nav class="menu" id="menu-scroll">
       <h1 class="logo"><a href="/">Sagar Satam logo</a></h1>
       <ul class="menu-links">
-        <li><a href="/#home">HOME</a></li>
-        <li><a href="/#my-work">MY WORK</a></li>
-        <li><a href="/#about-me">ABOUT ME</a></li>
-        <li><a href="/#how-i-work">HOW I WORK</a></li>
-        <li><a href="/#my-thinking">MY THINKING</a></li>
-        <li><a href="/#contact-me">CONTACT ME</a></li>
+        <li><a href="#home" id="homelink">HOME</a></li>
+        <li><a href="#my-work" id="my-worklink">MY WORK</a></li>
+        <li><a href="#about-me" id="about-melink">ABOUT ME</a></li>
+        <li><a href="#how-i-work" id="how-i-worklink">HOW I WORK</a></li>
+        <li><a href="#my-thinking" class="active" id="my-thinkinglink">MY THINKING</a></li>
+        <li><a href="#contact-me" id="contact-melink">CONTACT ME</a></li>
       </ul>
     </nav>
     <ul class="social-media">
@@ -21,18 +21,19 @@ title: Welcome to Middleman
       <li><a href="" class="pinterest">Pinterest</a></li>
       <li><a href="" class="behance">Behance</a></li>
     </ul>
-  </nav>
+  </div>
 </div>
 
-<section class="wrapper" id="home">
-  <div class="container">
-    <div class="content">
-      <h1>Hello.<br/>I'm Sagar Satam.</h1>
-      <h2>I’m a <span>Product & Service</span> Designer who loves </br>to develop innovative products and joyful experiences.</h2>
-      <a href="" class="arrow-down">scroll down</a>
+<div class="sections">
+  <section class="wrapper" id="home">
+    <div class="container">
+      <div class="content">
+        <h1>Hello.<br/>I'm Sagar Satam.</h1>
+        <h2>I’m a <span>Product & Service</span> Designer who loves </br>to develop innovative products and joyful experiences.</h2>
+        <a href="" class="arrow-down">scroll down</a>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
   <section class="wrapper" id="my-work">
     <div class="container">
@@ -172,338 +173,298 @@ title: Welcome to Middleman
     </div>
   </section>
 
-<section class="wrapper" id="about-me">
-  <div class="container">
-    <h1>ABOUT <br/>ME.</h1>
-    <h3>Busy lifestyles mean we are constantly on the go, and this takes away fun from our everyday lives. Thus, when I design I like to add fun to functional because that is how life should be. I love designing beautiful and functional product designs, as I believe that living with beautifully designed products can bring us incredible joy, especially when they are a part of our daily lives. I am looking to make an impact.</h3>
-    <img src="https://unsplash.it/1500/800/?random" alt="">
-    <h2>AWARDS</h2>
-    <div class="awards-wrapper">
-      <ul>
-        <li><img src="https://unsplash.it/120/120/?random" alt=""></li>
-        <li><img src="https://unsplash.it/120/120/?random" alt=""></li>
-        <li><img src="https://unsplash.it/120/120/?random" alt=""></li>
-      </ul>
-      <ul>
-        <li><img src="https://unsplash.it/120/120/?random" alt=""></li>
-        <li><img src="https://unsplash.it/120/120/?random" alt=""></li>
-        <li><img src="https://unsplash.it/120/120/?random" alt=""></li>
-      </ul>
-      <ul>
-        <li><img src="https://unsplash.it/120/120/?random" alt=""></li>
-        <li><img src="https://unsplash.it/120/120/?random" alt=""></li>
-      </ul>
+  <section class="wrapper" id="about-me">
+    <div class="container">
+      <h1>ABOUT <br/>ME.</h1>
+      <h3>Busy lifestyles mean we are constantly on the go, and this takes away fun from our everyday lives. Thus, when I design I like to add fun to functional because that is how life should be. I love designing beautiful and functional product designs, as I believe that living with beautifully designed products can bring us incredible joy, especially when they are a part of our daily lives. I am looking to make an impact.</h3>
+      <img src="https://unsplash.it/1500/800/?random" alt="">
+      <h2>AWARDS</h2>
+      <div class="awards-wrapper">
+        <ul>
+          <li><img src="https://unsplash.it/120/120/?random" alt=""></li>
+          <li><img src="https://unsplash.it/120/120/?random" alt=""></li>
+          <li><img src="https://unsplash.it/120/120/?random" alt=""></li>
+        </ul>
+        <ul>
+          <li><img src="https://unsplash.it/120/120/?random" alt=""></li>
+          <li><img src="https://unsplash.it/120/120/?random" alt=""></li>
+          <li><img src="https://unsplash.it/120/120/?random" alt=""></li>
+        </ul>
+        <ul>
+          <li><img src="https://unsplash.it/120/120/?random" alt=""></li>
+          <li><img src="https://unsplash.it/120/120/?random" alt=""></li>
+        </ul>
+      </div>
+      <a href="" class="rounded-button">RESUME</a>
     </div>
-    <a href="" class="rounded-button">RESUME</a>
-  </div>
-</section>
+  </section>
 
-<section class="wrapper" id="how-i-work">
-  <div class="container">
-    <h1>HOW I <br/>WORK.</h1>
-    <h3>The following is my design process. The tools and methods use depend on the requirements of the project.</h3>
-  </div>
-  <div class="how-i-work-wrapper">
-    <div class="how-i-work-steps">
-      <section class="process-step first">
-        <article>
-          <ul>
-            <li class="process-method">
-              <img src="https://unsplash.it/80/80/?random">
-              <p>TRENDS <br/>INSPIRATIONS</p>
-            </li>
-            <li class="process-method">
-              <img src="https://unsplash.it/80/80/?random">
-              <p>BENCHMARKING</p>
-            </li>
-            <li class="process-method">
-              <img src="https://unsplash.it/80/80/?random">
-              <p>CO-CREATE<br/>PROBLEM<br/>DEFINITION</p>
-            </li>
-            <li class="process-method">
-              <img src="https://unsplash.it/80/80/?random">
-              <p>STAKEHOLDER <br/>WORKSHOPS</p>
-            </li>
-          </ul>
-          <div class="step">
-            <span class="first-ball">RESEARCH<br/>& EMPATHISE</span>
-          </div>
-          <ul>
-            <li class="process-method">
-              <img src="https://unsplash.it/80/80/?random">
-              <p>USER BEHAVIOUR<br/>OBSERVATIONS</p>
-            </li>
-            <li class="process-method">
-              <img src="https://unsplash.it/80/80/?random">
-              <p>SYSTEMS MAPPING<br/>STAKEHOLDER MAPPING</p>
-            </li>
-            <li class="process-method">
-              <img src="https://unsplash.it/80/80/?random">
-              <p>INTERVIEWS <br/> SURVEYS</p>
-            </li>
-            <li class="process-method">
-              <img src="https://unsplash.it/80/80/?random">
-              <p>EMPATHY <br/>MAPPING</p>
-            </li>
-          </ul>
-          <div class="clear"></div>
-        </article>
-      </section>
-
-      <section class="process-step second">
-        <article>
-          <ul>
-            <li class="process-method">
-              <img src="https://unsplash.it/80/80/?random">
-              <p>PERSONAS</p>
-            </li>
-            <li class="process-method">
-              <img src="https://unsplash.it/80/80/?random">
-              <p>USER JOURNEYS</p>
-            </li>
-            <li class="process-method">
-              <img src="https://unsplash.it/80/80/?random">
-              <p>INTERACTIONS<br/>TOUCHPOINTS</p>
-            </li>
-          </ul>
-          <div class="step">
-            <span class="second-ball">ANALYSE<br/>& DEFINE</span>
-          </div>
-          <ul>
-            <li class="process-method">
-              <img src="https://unsplash.it/80/80/?random">
-              <p>USER NEEDS</p>
-            </li>
-            <li class="process-method">
-              <img src="https://unsplash.it/80/80/?random">
-              <p>PAIN POINTS</p>
-            </li>
-            <li class="process-method">
-              <img src="https://unsplash.it/80/80/?random">
-              <p>INSIGHTS</p>
-            </li>
-            <li class="process-method">
-              <img src="https://unsplash.it/80/80/?random">
-              <p>OPPORTUNITIES</p>
-            </li>
-          </ul>
-          <div class="clear"></div>
-        </article>
-      </section>
-      
-      <section class="process-step third">
-        <article>
-          <ul>
-            <li class="process-method">
-              <img src="https://unsplash.it/80/80/?random">
-              <p>USER EXPERIENCE</p>
-            </li>
-            <li class="process-method">
-              <img src="https://unsplash.it/80/80/?random">
-              <p>CO-DESIGNING</p>
-            </li>
-            <li class="process-method">
-              <img src="https://unsplash.it/80/80/?random">
-              <p>CONCEPTUALISATION<br/>BRAINSTORMING</p>
-            </li>
-          </ul>
-          <div class="step">
-            <span class="third-ball">IDEATE</span>
-          </div>
-          <ul>
-            <li class="process-method">
-              <img src="https://unsplash.it/80/80/?random">
-              <p>TRIANGLE<br/>MAPPING IDEAS</p>
-            </li>
-            <li class="process-method">
-              <img src="https://unsplash.it/80/80/?random">
-              <p>CROSS<br/>MAPPING IDEAS</p>
-            </li>
-            <li class="process-method">
-              <img src="https://unsplash.it/80/80/?random">
-              <p>TOUCHPOINT<br/>DESIGN</p>
-            </li>
-            <li class="process-method">
-              <img src="https://unsplash.it/80/80/?random">
-              <p>BUSINESS MODEL<br/>STRATEGY</p>
-            </li>
-          </ul>
-          <div class="clear"></div>
-        </article>
-      </section>
-
-      <section class="process-step forth">
-        <article>
-          <ul>
-            <li class="process-method">
-              <img src="https://unsplash.it/80/80/?random">
-              <p>TOUCHPOINT DESIGN<br/>DEVELOPMENT</p>
-            </li>
-            <li class="process-method">
-              <img src="https://unsplash.it/80/80/?random">
-              <p>CONSOLIDATION</p>
-            </li>
-          </ul>
-          <div class="step">
-            <span class="forth-ball">PROTOTYPE<br/>& REFINE</span>
-          </div>
-          <ul>
-            <li class="process-method">
-              <img src="https://unsplash.it/80/80/?random">
-              <p>ROLE PLAYING<br/>SCENARIOS</p>
-            </li>
-            <li class="process-method">
-              <img src="https://unsplash.it/80/80/?random">
-              <p>GATHERING<br/>FEEDBACKS</p>
-            </li>
-            <li class="process-method">
-              <img src="https://unsplash.it/80/80/?random">
-              <p>TESTING</p>
-            </li>
-          </ul>
-          <div class="clear"></div>
-        </article>
-      </section>
-
-      <section class="process-step fifth">
-        <article>
-          <ul>
-            <li class="process-method">
-              <img src="https://unsplash.it/80/80/?random">
-              <p>SERVICE<br/>BLUEPRINTING</p>
-            </li>
-            <li class="process-method">
-              <img src="https://unsplash.it/80/80/?random">
-              <p>STORYBOARDS</p>
-            </li>
-            <li class="process-method">
-              <img src="https://unsplash.it/80/80/?random">
-              <p>IMPLEMENTATION<br/>PLAN</p>
-            </li>
-          </ul>
-          <div class="step">
-            <span class="fifth-ball">DELIVER</span>
-          </div>
-          <ul>
-            <li class="process-method">
-              <img src="https://unsplash.it/80/80/?random">
-              <p>COLLECTING<br/>FEEDBACK</p>
-            </li>
-            <li class="process-method">
-              <img src="https://unsplash.it/80/80/?random">
-              <p>FURTHER<br/>REFINING</p>
-            </li>
-            <li class="process-method">
-              <img src="https://unsplash.it/80/80/?random">
-              <p>GOAL SETTING<br/>SHORT, MID, LONG</p>
-            </li>
-          </ul>
-          <div class="clear"></div>
-        </article>
-      </section>
+  <section class="wrapper" id="how-i-work">
+    <div class="container">
+      <h1>HOW I <br/>WORK.</h1>
+      <h3>The following is my design process. The tools and methods use depend on the requirements of the project.</h3>
     </div>
-  </div>
-</section> 
+    <div class="how-i-work-wrapper">
+      <div class="how-i-work-steps">
+        <section class="process-step first">
+          <article>
+            <ul>
+              <li class="process-method">
+                <img src="https://unsplash.it/80/80/?random">
+                <p>TRENDS <br/>INSPIRATIONS</p>
+              </li>
+              <li class="process-method">
+                <img src="https://unsplash.it/80/80/?random">
+                <p>BENCHMARKING</p>
+              </li>
+              <li class="process-method">
+                <img src="https://unsplash.it/80/80/?random">
+                <p>CO-CREATE<br/>PROBLEM<br/>DEFINITION</p>
+              </li>
+              <li class="process-method">
+                <img src="https://unsplash.it/80/80/?random">
+                <p>STAKEHOLDER <br/>WORKSHOPS</p>
+              </li>
+            </ul>
+            <div class="step">
+              <span class="first-ball">RESEARCH<br/>& EMPATHISE</span>
+            </div>
+            <ul>
+              <li class="process-method">
+                <img src="https://unsplash.it/80/80/?random">
+                <p>USER BEHAVIOUR<br/>OBSERVATIONS</p>
+              </li>
+              <li class="process-method">
+                <img src="https://unsplash.it/80/80/?random">
+                <p>SYSTEMS MAPPING<br/>STAKEHOLDER MAPPING</p>
+              </li>
+              <li class="process-method">
+                <img src="https://unsplash.it/80/80/?random">
+                <p>INTERVIEWS <br/> SURVEYS</p>
+              </li>
+              <li class="process-method">
+                <img src="https://unsplash.it/80/80/?random">
+                <p>EMPATHY <br/>MAPPING</p>
+              </li>
+            </ul>
+            <div class="clear"></div>
+          </article>
+        </section>
 
-<section class="wrapper" id="my-thinking">
-  <div class="container">
-    <h1>MY <br/>THINKING.</h1>
-    <h3>My opinions and views related to design. My opinions and views related to design. My opinions and views related to design.</h3>
-    <div class="posts-wrapper">
-      <ul>
-        <li class="post-thumb">
-          <a href="" class="post-thumb-img">
-            <img src="https://unsplash.it/800/800/?random" alt="">
-            <div class="img-hover"></div>
-          </a>
-          <div class="post-thumb-description">
-            <span>VIEWPOINT</span>
-            <h1>SERVICE DESIGN & POST-ITS</h1>
-            <small>16th January 2006</small>
-            <p>Nothing says creativity better than a crazy colourful mess of Post-its smeared onto the wall rather than a bunch of people with suits sitting and talking around the table.</p>
-            <a href="" class="rounded-button">READ MORE</a>
-          </div>
-        </li>
-        <li class="post-thumb">
-          <a href="" class="post-thumb-img">
-            <img src="https://unsplash.it/800/800/?random" alt="">
-            <div class="img-hover"></div>
-          </a>
-          <div class="post-thumb-description">
-            <span>VIEWPOINT</span>
-            <h1>SERVICE DESIGN & POST-ITS</h1>
-            <small>16th January 2006</small>
-            <p>Nothing says creativity better than a crazy colourful mess of Post-its smeared onto the wall rather than a bunch of people with suits sitting and talking around the table.</p>
-            <a href="" class="rounded-button">READ MORE</a>
-          </div>
-        </li>
-        <li class="post-thumb">
-          <a href="" class="post-thumb-img" class="post-thumb-img">
-            <img src="https://unsplash.it/800/800/?random" alt="">
-            <div class="img-hover"></div>
-          </a>
-          <div class="post-thumb-description">
-            <span>VIEWPOINT</span>
-            <h1>SERVICE DESIGN & POST-ITS</h1>
-            <small>16th January 2006</small>
-            <p>Nothing says creativity better than a crazy colourful mess of Post-its smeared onto the wall rather than a bunch of people with suits sitting and talking around the table.</p>
-            <a href="" class="rounded-button">READ MORE</a>
-          </div>
-        </li>
-      </ul>
-      <ul>
-        <li class="post-thumb">
-          <a href="" class="post-thumb-img">
-            <img src="https://unsplash.it/800/800/?random" alt="">
-            <div class="img-hover"></div>
-          </a>
-          <div class="post-thumb-description">
-            <span>VIEWPOINT</span>
-            <h1>SERVICE DESIGN & POST-ITS</h1>
-            <small>16th January 2006</small>
-            <p>Nothing says creativity better than a crazy colourful mess of Post-its smeared onto the wall rather than a bunch of people with suits sitting and talking around the table.</p>
-            <a href="" class="rounded-button">READ MORE</a>
-          </div>
-        </li>
-        <li class="post-thumb">
-          <a href="" class="post-thumb-img">
-            <img src="https://unsplash.it/800/800/?random" alt="">
-            <div class="img-hover"></div>
-          </a>
-          <div class="post-thumb-description">
-            <span>VIEWPOINT</span>
-            <h1>SERVICE DESIGN & POST-ITS</h1>
-            <small>16th January 2006</small>
-            <p>Nothing says creativity better than a crazy colourful mess of Post-its smeared onto the wall rather than a bunch of people with suits sitting and talking around the table.</p>
-            <a href="" class="rounded-button">READ MORE</a>
-          </div>
-        </li>
-        <li class="post-thumb">
-          <a href="" class="post-thumb-img">
-            <img src="https://unsplash.it/800/800/?random" alt="">
-            <div class="img-hover"></div>
-          </a>
-          <div class="post-thumb-description">
-            <span>VIEWPOINT</span>
-            <h1>SERVICE DESIGN & POST-ITS</h1>
-            <small>16th January 2006</small>
-            <p>Nothing says creativity better than a crazy colourful mess of Post-its smeared onto the wall rather than a bunch of people with suits sitting and talking around the table.</p>
-            <a href="" class="rounded-button">READ MORE</a>
-          </div>
-        </li>
-      </ul>
-      <div class="clear"></div>
+        <section class="process-step second">
+          <article>
+            <ul>
+              <li class="process-method">
+                <img src="https://unsplash.it/80/80/?random">
+                <p>PERSONAS</p>
+              </li>
+              <li class="process-method">
+                <img src="https://unsplash.it/80/80/?random">
+                <p>USER JOURNEYS</p>
+              </li>
+              <li class="process-method">
+                <img src="https://unsplash.it/80/80/?random">
+                <p>INTERACTIONS<br/>TOUCHPOINTS</p>
+              </li>
+            </ul>
+            <div class="step">
+              <span class="second-ball">ANALYSE<br/>& DEFINE</span>
+            </div>
+            <ul>
+              <li class="process-method">
+                <img src="https://unsplash.it/80/80/?random">
+                <p>USER NEEDS</p>
+              </li>
+              <li class="process-method">
+                <img src="https://unsplash.it/80/80/?random">
+                <p>PAIN POINTS</p>
+              </li>
+              <li class="process-method">
+                <img src="https://unsplash.it/80/80/?random">
+                <p>INSIGHTS</p>
+              </li>
+              <li class="process-method">
+                <img src="https://unsplash.it/80/80/?random">
+                <p>OPPORTUNITIES</p>
+              </li>
+            </ul>
+            <div class="clear"></div>
+          </article>
+        </section>
+        
+        <section class="process-step third">
+          <article>
+            <ul>
+              <li class="process-method">
+                <img src="https://unsplash.it/80/80/?random">
+                <p>USER EXPERIENCE</p>
+              </li>
+              <li class="process-method">
+                <img src="https://unsplash.it/80/80/?random">
+                <p>CO-DESIGNING</p>
+              </li>
+              <li class="process-method">
+                <img src="https://unsplash.it/80/80/?random">
+                <p>CONCEPTUALISATION<br/>BRAINSTORMING</p>
+              </li>
+            </ul>
+            <div class="step">
+              <span class="third-ball">IDEATE</span>
+            </div>
+            <ul>
+              <li class="process-method">
+                <img src="https://unsplash.it/80/80/?random">
+                <p>TRIANGLE<br/>MAPPING IDEAS</p>
+              </li>
+              <li class="process-method">
+                <img src="https://unsplash.it/80/80/?random">
+                <p>CROSS<br/>MAPPING IDEAS</p>
+              </li>
+              <li class="process-method">
+                <img src="https://unsplash.it/80/80/?random">
+                <p>TOUCHPOINT<br/>DESIGN</p>
+              </li>
+              <li class="process-method">
+                <img src="https://unsplash.it/80/80/?random">
+                <p>BUSINESS MODEL<br/>STRATEGY</p>
+              </li>
+            </ul>
+            <div class="clear"></div>
+          </article>
+        </section>
+
+        <section class="process-step forth">
+          <article>
+            <ul>
+              <li class="process-method">
+                <img src="https://unsplash.it/80/80/?random">
+                <p>TOUCHPOINT DESIGN<br/>DEVELOPMENT</p>
+              </li>
+              <li class="process-method">
+                <img src="https://unsplash.it/80/80/?random">
+                <p>CONSOLIDATION</p>
+              </li>
+            </ul>
+            <div class="step">
+              <span class="forth-ball">PROTOTYPE<br/>& REFINE</span>
+            </div>
+            <ul>
+              <li class="process-method">
+                <img src="https://unsplash.it/80/80/?random">
+                <p>ROLE PLAYING<br/>SCENARIOS</p>
+              </li>
+              <li class="process-method">
+                <img src="https://unsplash.it/80/80/?random">
+                <p>GATHERING<br/>FEEDBACKS</p>
+              </li>
+              <li class="process-method">
+                <img src="https://unsplash.it/80/80/?random">
+                <p>TESTING</p>
+              </li>
+            </ul>
+            <div class="clear"></div>
+          </article>
+        </section>
+
+        <section class="process-step fifth">
+          <article>
+            <ul>
+              <li class="process-method">
+                <img src="https://unsplash.it/80/80/?random">
+                <p>SERVICE<br/>BLUEPRINTING</p>
+              </li>
+              <li class="process-method">
+                <img src="https://unsplash.it/80/80/?random">
+                <p>STORYBOARDS</p>
+              </li>
+              <li class="process-method">
+                <img src="https://unsplash.it/80/80/?random">
+                <p>IMPLEMENTATION<br/>PLAN</p>
+              </li>
+            </ul>
+            <div class="step">
+              <span class="fifth-ball">DELIVER</span>
+            </div>
+            <ul>
+              <li class="process-method">
+                <img src="https://unsplash.it/80/80/?random">
+                <p>COLLECTING<br/>FEEDBACK</p>
+              </li>
+              <li class="process-method">
+                <img src="https://unsplash.it/80/80/?random">
+                <p>FURTHER<br/>REFINING</p>
+              </li>
+              <li class="process-method">
+                <img src="https://unsplash.it/80/80/?random">
+                <p>GOAL SETTING<br/>SHORT, MID, LONG</p>
+              </li>
+            </ul>
+            <div class="clear"></div>
+          </article>
+        </section>
+      </div>
     </div>
-    <a href="" class="show-more">Show more \/</a>
-  </div>
-</section>  
+  </section> 
 
-<section class="wrapper" id="contact-me">
-  <div class="container">
-    <h1>CONTACT <br/>ME.</h1>
-    <h3>If you want to contact me about anything, feel free to get in touch below!</h3>
-  </div>
-</section>
+  <section class="wrapper" id="my-thinking">
+    <div class="container">
+      <h1>MY <br/>THINKING.</h1>
+      <h3>My opinions and views related to design. My opinions and views related to design. My opinions and views related to design.</h3>
+      <div class="posts-wrapper">
+        <ul>
+          <li class="post-thumb">
+            <a href="" class="post-thumb-img">
+              <img src="https://unsplash.it/800/800/?random" alt="">
+              <div class="img-hover"></div>
+            </a>
+            <div class="post-thumb-description">
+              <span>VIEWPOINT</span>
+              <h1>SERVICE DESIGN & POST-ITS</h1>
+              <small>16th January 2006</small>
+              <p>Nothing says creativity better than a crazy colourful mess of Post-its smeared onto the wall rather than a bunch of people with suits sitting and talking around the table.</p>
+              <a href="" class="rounded-button">READ MORE</a>
+            </div>
+          </li>
+          <li class="post-thumb">
+            <a href="" class="post-thumb-img">
+              <img src="https://unsplash.it/800/800/?random" alt="">
+              <div class="img-hover"></div>
+            </a>
+            <div class="post-thumb-description">
+              <span>VIEWPOINT</span>
+              <h1>SERVICE DESIGN & POST-ITS</h1>
+              <small>16th January 2006</small>
+              <p>Nothing says creativity better than a crazy colourful mess of Post-its smeared onto the wall rather than a bunch of people with suits sitting and talking around the table.</p>
+              <a href="" class="rounded-button">READ MORE</a>
+            </div>
+          </li>
+          <li class="post-thumb">
+            <a href="" class="post-thumb-img" class="post-thumb-img">
+              <img src="https://unsplash.it/800/800/?random" alt="">
+              <div class="img-hover"></div>
+            </a>
+            <div class="post-thumb-description">
+              <span>VIEWPOINT</span>
+              <h1>SERVICE DESIGN & POST-ITS</h1>
+              <small>16th January 2006</small>
+              <p>Nothing says creativity better than a crazy colourful mess of Post-its smeared onto the wall rather than a bunch of people with suits sitting and talking around the table.</p>
+              <a href="" class="rounded-button">READ MORE</a>
+            </div>
+          </li>
+        </ul>
+        <div class="clear"></div>
+      </div>
+      <a href="" class="show-more">Show more \/</a>
+    </div>
+  </section>  
+
+  <section class="wrapper" id="contact-me">
+    <div class="container">
+      <h1>CONTACT <br/>ME.</h1>
+      <h3>If you want to contact me about anything, feel free to get in touch below!</h3>
+    </div>
+  </section>
+</div>  
 
 <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 340" class="middleman-logo" aria-labelledby="middleman-logo__title" role="img">
   <title id="middleman-logo__title">Middleman</title>
