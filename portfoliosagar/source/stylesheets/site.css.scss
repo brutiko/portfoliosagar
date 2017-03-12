@@ -64,6 +64,14 @@ a {
   width: 40px;
   float: left;
   margin-right: 20px;
+
+  a {
+    display: block;
+  }
+
+  a:hover {
+    border: none;
+  }
 }
 
 .social-media {
