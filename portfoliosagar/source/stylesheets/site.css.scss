@@ -1,9 +1,11 @@
+html { height: 100%; }
 body {
   background-color: #fff;
   color: #333;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   line-height: 18px;
+  height: 100%;
 }
 
 ul {
@@ -633,5 +635,122 @@ footer {
             transform: translateY(46px);
   }
 }
+
+.parallax {
+  /* The image used */
+  background-image: url(/images/bg-project-pacman.jpg);
+
+  /* Full height */
+  /*height: 300px; */
+  height: 400px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: 0 center 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.project-wrapper {
+  height: auto;
+  background-color: #fff;
+  font-size:36px;
+  padding: 80px 0;
+  width: 100%;
+}
+
+.project-content {
+  width: 80%;
+  margin: auto;
+
+  span {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 32px;
+    font-family: 'Nexa', sans-serif;
+    letter-spacing: 0.0025em;
+  }
+
+  h1:after {
+    content: "";
+    background: #14344e;
+    display: block;
+    height: 8px;
+    margin: 20px 0; 
+    width: 80px;
+  }
+
+  h2 {
+    background: #14344e;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 3px 30px;
+    display: inline-block;
+    margin-left: 40px;
+    letter-spacing: 0.0025em;
+  }
+
+  h3 {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    line-height: 48px;
+    margin-bottom: 40px;
+  }
+
+  .project-step-number {
+    font-size: 130px;
+    margin-top: 100px;
+    font-family: 'Nexa Light', sans-serif;
+    font-weight: 200;
+    line-height: 2px;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    line-height: 22px;
+  }
+
+  img {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+.other-projects {
+  background: #f5f5f5;
+  padding: 40px 0 80px;
+  width: 100%;
+  height: 1000px;
+}
+
+.other-projects-content {
+  padding: 40px 0;
+  margin: auto;
+  width: 80%;
+
+  h1 {
+    font-family: 'Nexa', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0.005em;
+  }
+}
+
+
+
+
+
+
+
 
 
