@@ -14,6 +14,7 @@ $(function() {
   });
 });
 
+
 //LOAD MORE
 $(function () {
   $(".project-row").slice(0, 2).show();
@@ -29,7 +30,7 @@ $(function () {
   });
 });
 
-$('a[href=#top]').click(function () {
+$('a[href="#top"]').click(function () {
   $('body,html').animate({
   scrollTop: 0
   }, 600);
