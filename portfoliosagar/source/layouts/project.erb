@@ -18,14 +18,42 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800" rel="stylesheet">
 
     <link href="/stylesheets/site.css" rel="stylesheet" />
+    <link href="/stylesheets/projects.css" rel="stylesheet" />
     <!-- <%= stylesheet_link_tag "site" %> -->
     <%= javascript_include_tag "jquery-3.1.1.min" %>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <%= javascript_include_tag "site" %>
+    <%= javascript_include_tag "projects" %>
 
   </head>
 
   <body class="<%= page_classes %>">
-    <%= yield %>
+    <header id="menu-hide-scroll" class="">
+      <div class="menu-wrapper">
+        <div class="top-menu">
+          <nav class="menu">
+            <h1 class="logo"><a href="/">Sagar Satam logo</a></h1>
+            <ul class="menu-links">
+              <li><a href="/#home" id="homelink">HOME</a></li>
+              <li><a href="/#my-work" id="my-worklink">MY WORK</a></li>
+              <li><a href="/#about-me" id="about-melink">ABOUT ME</a></li>
+              <li><a href="/#how-i-work" id="how-i-worklink">HOW I WORK</a></li>
+              <li><a href="/#my-thinking" class="active" id="my-thinkinglink">MY THINKING</a></li>
+              <li><a href="/#contact-me" id="contact-melink">CONTACT ME</a></li>
+            </ul>
+          </nav>
+          <ul class="social-media">
+            <li><a href="" class="linkedin">Linkedin</a></li>
+            <li><a href="" class="instagram">Instagram</a></li>
+            <li><a href="" class="pinterest">Pinterest</a></li>
+            <li><a href="" class="behance">Behance</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <%= yield %>
+    </main>
   </body>
 
   <footer class="wrapper">
@@ -36,10 +64,10 @@
       </div>
       <div class="footer-greetings">
         <span id="week-day">
-         <script language="JavaScript">
+         <!-- <script language="JavaScript">
             sampleDate1=new Date()
             document.write ("HAHAH " + mdy(sampleDate1))
-          </script>
+          </script> -->
         </span>
         <p id="demo"></p>
       </div>
