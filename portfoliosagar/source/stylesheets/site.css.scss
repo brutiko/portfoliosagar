@@ -290,6 +290,29 @@ a {
   display: block;
   margin: 40px auto 40px;
   text-align: center;
+  width: 120px;
+
+  span {
+    display: inline-block;
+    background: url('/images/arrow-show-more.png') no-repeat;
+    background-position: 0 -40px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+  }
+
+  &:hover span {
+    background-position: 0 0; 
+  }
+
+  p {
+    color: #333;
+    font-size: 14px;
+  }
+
+  &:hover p {
+    color: #4b94a2;
+  }
 }
 
 #about-me {
