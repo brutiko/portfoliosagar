@@ -201,6 +201,7 @@ a {
 
 .rounded-button {
   color: #53a8b7;
+  display: inline-block;
   border: 2px solid #53a8b7;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -214,6 +215,28 @@ a {
 .rounded-button:hover {
   background: #53a8b7;
   color: #fff;
+}
+
+.rounded-button p {
+  margin: 5px 10px 5px 0;
+  float: left;
+}
+
+.rounded-button.download {
+  padding: 5px 20px;
+}
+
+#about-me .download-icon {
+  background: url("/images/icon-download.png") no-repeat;
+  background-position: 0 -18px;
+  float: left;
+  width: 20px;
+  height: 26px;
+  margin: 0 3px;
+}
+
+#about-me .rounded-button:hover .download-icon {
+  background-position: 0 4px;
 }
 
 .project-row {
