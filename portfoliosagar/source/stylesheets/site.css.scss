@@ -573,6 +573,13 @@ footer {
     line-height: 14px;
     text-align: center;
   }
+
+  object {
+    max-width: 60px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px; 
+  }
 }
 
 .step {
