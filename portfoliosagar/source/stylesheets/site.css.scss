@@ -829,4 +829,15 @@ footer {
 }
 
 
+/* MEDIA QUERIES */
 
+
+/* Portrait and Landscape */
+@media screen and (max-width: 640px) {
+  .box,
+  .post-thumb { 
+    float: none;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
