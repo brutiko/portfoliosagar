@@ -1,4 +1,4 @@
-//SCROLL DOWN
+//MENU SCROLL DOWN
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
   if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -13,6 +13,19 @@ $(function() {
   }
   });
 });
+
+
+//BUTTON SCROLL DOWN
+// var aTag = $("div[name='"+ aid +"']");
+
+$(document).ready(function() {
+  $(".arrow-down-wrapper").click(function() {
+    $('html, body').animate({
+          scrollTop: $("how-i-work").offset().top-700
+      }, 2000);
+  });
+});
+
 
 
 //LOAD MORE
