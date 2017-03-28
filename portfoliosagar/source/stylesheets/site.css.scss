@@ -713,7 +713,7 @@ footer {
 
 .project-content,
 .post-content {
-  width: 80%;
+  width: 60%;
   margin: auto;
 
   span {
@@ -779,23 +779,21 @@ footer {
   }
 }
 
-.post-content {
-  width: 60%;
-}
-
 .post-content small {
   display: block; 
   font-size: 14px;
   margin-bottom: 30px;
 }
 
-.other-projects {
+.other-projects,
+.other-posts {
   background: #f5f5f5;
   padding: 40px 0 80px;
   width: 100%;
 }
 
-.other-projects-content {
+.other-projects-content,
+.other-posts-content {
   padding: 40px 0;
   margin: auto;
   width: 80%;
@@ -806,6 +804,10 @@ footer {
     font-size: 24px;
     letter-spacing: 0.005em;
   }
+}
+
+.other-posts-content .post-thumb {
+  background: #fff;
 }
 
 #contact-form {
