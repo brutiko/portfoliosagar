@@ -688,9 +688,6 @@ footer {
 }
 
 .parallax {
-  /* The image used */
-  background-image: url(/images/bg-project-pacman.jpg);
-
   /* Full height */
   /*height: 300px; */
   height: 400px;
@@ -701,6 +698,23 @@ footer {
   background-repeat: no-repeat;
   background-size: 100%;
 }
+
+.parallax.bg-pacman { background-image: url(/images/bg-project-pacman.jpg); }
+.parallax.bg-cadbury { background-image: url(/images/bg-project-cadbury.jpg); }
+.parallax.bg-persono { background-image: url(/images/bg-project-persono.jpg); }
+.parallax.bg-josmo { background-image: url(/images/bg-project-josmo.jpg); }
+.parallax.bg-teapot { background-image: url(/images/bg-project-teapot.jpg); }
+.parallax.bg-wearable { background-image: url(/images/bg-project-wearable.jpg); }
+.parallax.bg-street-furniture { background-image: url(/images/bg-project-street-furniture.jpg); }
+
+.parallax.bg-kin { background-image: url(/images/bg-project-kin.jpg); }
+.parallax.bg-museum { background-image: url(/images/bg-project-museum.jpg); }
+.parallax.bg-philips { background-image: url(/images/bg-project-philips.jpg); }
+.parallax.bg-save { background-image: url(/images/bg-project-save.jpg); }
+.parallax.bg-talking-heads { background-image: url(/images/bg-project-talking-heads.jpg); }
+.parallax.bg-terme { background-image: url(/images/bg-project-terme.jpg); }
+
+
 
 .project-wrapper,
 .post-wrapper {
