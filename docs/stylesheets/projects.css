@@ -1,0 +1,16 @@
+#menu-hide-scroll {
+  height: 60px;
+  position: fixed;
+  top: -60px;
+  transition: top 0.2s ease-in-out;
+  width: 100%;
+  z-index: 1; }
+
+#menu-hide-scroll.nav-up {
+  top: -60px; }
+
+#menu-hide-scroll.nav-down {
+  top: 0; }
+
+#menu-hide-scroll .menu-wrapper {
+  position: static; }
