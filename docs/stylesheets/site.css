@@ -436,6 +436,9 @@ footer {
 .process-step .third-ball, .process-step .fifth-ball {
   padding: 50px 0; }
 
+.process-description {
+  display: block; }
+
 .process-method {
   display: inline-block;
   float: left;
@@ -687,6 +690,21 @@ footer {
   float: left;
   margin-right: 80px; }
 
+#contact-form.form-style .wufoo input#saveForm.btTxt.submit {
+  background: #f5f5f5;
+  color: #53a8b7;
+  border: 2px solid #53a8b7;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  padding: 8px 18px;
+  margin-right: 10px;
+  margin-bottom: 40px; }
+#contact-form.form-style .buttons .submit:hover {
+  background: #53a8b7;
+  color: #fff; }
+
 .contacts-text {
   padding-top: 80px;
   float: left; }
@@ -714,9 +732,189 @@ footer {
     display: inline-block;
     margin: 0 20px; }
 
+/* MENU SANDWICH */
+#menu-icon {
+  display: none;
+  width: 30px;
+  height: 30px;
+  background: url(../images/bt-sandwich-menu.png) center no-repeat;
+  padding: 0; }
+
+.accordion-head h2 {
+  display: none; }
+
+/* ACCORDION */
+/*.accordion,
+.step-name {
+  display:none;
+}*/
 /* MEDIA QUERIES */
+@media only screen and (max-width: 1150px) {
+  #about-me .awards-wrapper {
+    width: 100%; }
+    #about-me .awards-wrapper ul {
+      text-align: center; }
+    #about-me .awards-wrapper li {
+      width: 48%; }
+
+  .top-menu .social-media {
+    display: none; }
+
+  header {
+    position: absolute; }
+
+  .menu {
+    width: 100%; }
+
+  #menu-icon {
+    display: inline-block;
+    float: right; }
+
+  #menu-icon:hover {
+    border: none; }
+
+  nav ul, nav:active ul {
+    display: none;
+    position: absolute;
+    padding: 20px;
+    background: #333;
+    border: none;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 50px;
+    width: 100%;
+    height: 100%; }
+
+  nav li {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0; }
+
+  nav:hover ul {
+    display: block;
+    border: none; }
+
+  .menu-links .active,
+  .menu-links .active:hover,
+  .menu-links li:hover {
+    border: none; }
+
+  .accordion-head {
+    display: block;
+    padding: 0 10%; }
+    .accordion-head h2 {
+      text-align: center;
+      font-size: 20px;
+      font-weight: 400;
+      letter-spacing: 0.015em;
+      margin: 10px 0;
+      display: inline-block; }
+
+  .process-step {
+    display: block;
+    padding: 10px; }
+    .process-step ul {
+      float: none;
+      margin-top: 10px;
+      width: 100%;
+      text-align: center; }
+    .process-step ul:first-child li {
+      float: none; }
+
+  .process-description {
+    display: none; }
+
+  .process-method {
+    float: none; }
+
+  .step-name {
+    display: block; }
+
+  .step {
+    display: none; }
+
+  .step:before,
+  .step:after {
+    content: none; }
+
+  .step span.first-ball {
+    background: transparent; }
+
+  /* ACCORDION 2 */
+  /*.accordion {
+    width: 100%;
+    background-color: #EDEDED;
+  }
+
+  .accordion .accordion-head {
+    color: #fff;
+    background-color: #3A84DE;
+    border-bottom: 1px solid #fff;
+    position: relative;
+    padding: 20px 10%;
+    font-size: 0.87em;
+    cursor: pointer;
+    overflow: hidden;
+  }
+
+  .accordion .accordion-head * {
+    cursor: pointer;
+  }
+
+  .accordion .accordion-head h2 {
+    float: left;
+    display: inline;
+    font-size: 20px;
+    letter-spacing: 0.015em;
+  }
+
+  .accordion .accordion-head:hover {
+    filter: alpha(opacity=80);
+    opacity: 0.80;
+  }
+
+  .accordion .accordion-body {
+    border-bottom: 1px solid #fff;
+    padding: 20px;
+    height: auto;
+    display: none;
+  }
+
+  .arrow {
+    float: right;
+    width: 0px;
+    height: 0px;
+    margin-top: 23px;
+    border: 10px solid transparent;
+    margin-top: 21px;
+    border-top-color: #F3F3F3;
+  }
+
+  .accordion-head.open .arrow {
+    margin-top: 11px;
+    border-bottom-color: #F3F3F3;
+    border-top-color: transparent;
+  }*/
+  .footer-rights {
+    width: 100%; }
+
+  .footer-greetings {
+    margin: 5px 0 60px;
+    width: 100%; }
+    .footer-greetings span {
+      text-align: left; }
+
+  .footer-keep-in-touch {
+    width: 100%;
+    text-align: left; }
+    .footer-keep-in-touch h3:after {
+      left: 0; }
+    .footer-keep-in-touch .social-media {
+      float: left; } }
 /* Portrait and Landscape */
-@media screen and (max-width: 640px) {
+@media only screen and (max-width: 640px) {
   .box,
   .post-thumb {
     float: none;
