@@ -909,17 +909,34 @@ footer {
   padding: 0;
 }
 
+.accordion-head h2 {
+  display: none;
+}
+
 /* ACCORDION */
 
-.accordion,
+/*.accordion,
 .step-name {
   display:none;
-}
+}*/
 
 
 /* MEDIA QUERIES */
 
 @media only screen and (max-width:1150px) {
+  
+  #about-me .awards-wrapper {
+    width: 100%;
+
+    ul {
+      text-align: center;
+    }
+
+    li {
+      width: 48%;
+    }
+  }
+
   .top-menu .social-media {
     display: none;
   }
@@ -973,8 +990,9 @@ footer {
     border: none;
   }
 
-  .accordion {
+  .accordion-head {
     display: block;
+    padding: 0 10%;
 
     h2 {
       text-align: center;
@@ -982,6 +1000,7 @@ footer {
       font-weight: 400;
       letter-spacing: 0.015em;
       margin: 10px 0;
+      display: inline-block;
     }
   }
 
@@ -1026,6 +1045,88 @@ footer {
     background: transparent;
   }
 
+  /* ACCORDION 2 */
+
+  /*.accordion {
+    width: 100%;
+    background-color: #EDEDED;
+  }
+
+  .accordion .accordion-head {
+    color: #fff;
+    background-color: #3A84DE;
+    border-bottom: 1px solid #fff;
+    position: relative;
+    padding: 20px 10%;
+    font-size: 0.87em;
+    cursor: pointer;
+    overflow: hidden;
+  }
+
+  .accordion .accordion-head * {
+    cursor: pointer;
+  }
+
+  .accordion .accordion-head h2 {
+    float: left;
+    display: inline;
+    font-size: 20px;
+    letter-spacing: 0.015em;
+  }
+
+  .accordion .accordion-head:hover {
+    filter: alpha(opacity=80);
+    opacity: 0.80;
+  }
+
+  .accordion .accordion-body {
+    border-bottom: 1px solid #fff;
+    padding: 20px;
+    height: auto;
+    display: none;
+  }
+
+  .arrow {
+    float: right;
+    width: 0px;
+    height: 0px;
+    margin-top: 23px;
+    border: 10px solid transparent;
+    margin-top: 21px;
+    border-top-color: #F3F3F3;
+  }
+
+  .accordion-head.open .arrow {
+    margin-top: 11px;
+    border-bottom-color: #F3F3F3;
+    border-top-color: transparent;
+  }*/
+
+  .footer-rights {
+    width: 100%;
+  }
+
+  .footer-greetings {
+    margin: 5px 0 60px;
+    width: 100%;
+
+    span {
+      text-align: left;
+    }
+  }
+
+  .footer-keep-in-touch {
+    width: 100%;
+    text-align: left;
+
+    h3:after {
+      left:0;
+    }
+
+    .social-media {
+      float: left;
+    }
+  }
 }
 
 /* Portrait and Landscape */

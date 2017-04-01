@@ -38,27 +38,27 @@ function hasScrolled() {
 }
 
 
-// FILTERING PROJECTS THUMBNAILS
-
-var $btns = $('.btn').click(function() {
-  if (this.id == 'all') {
-    $('#parent > div').fadeIn(450);
-  } else {
-    var $el = $('.' + this.id).fadeIn(450);
-    $('#parent > div').not($el).hide();
-  }
-  $btns.removeClass('active');
-  $(this).addClass('active');
-})
-
-
 // ACCORDION
 
 $(document).ready(function () {
-    $('.accordion.first-accordion').on('click', function () { $('.process-description.first-accordion-step').slideToggle( "fast"); });
-    $('.accordion.second-accordion').on('click', function () { $('.process-description.second-accordion-step').slideToggle( "fast"); });
-    $('.accordion.third-accordion').on('click', function () { $('.process-description.third-accordion-step').slideToggle( "fast"); });
-    $('.accordion.forth-accordion').on('click', function () { $('.process-description.forth-accordion-step').slideToggle( "fast"); });
-    $('.accordion.fifth-accordion').on('click', function () { $('.process-description.fifth-accordion-step').slideToggle( "fast"); });
+    $('.accordion-head.first-accordion').on('click', function () { $('.process-description.first-accordion-step').slideToggle( "fast"); });
+    $('.accordion-head.second-accordion').on('click', function () { $('.process-description.second-accordion-step').slideToggle( "fast"); });
+    $('.accordion-head.third-accordion').on('click', function () { $('.process-description.third-accordion-step').slideToggle( "fast"); });
+    $('.accordion-head.forth-accordion').on('click', function () { $('.process-description.forth-accordion-step').slideToggle( "fast"); });
+    $('.accordion-head.fifth-accordion').on('click', function () { $('.process-description.fifth-accordion-step').slideToggle( "fast"); });
 });
     
+
+// // ACCORDION 2
+
+// $('#accordion-wrapper .accordion').each(function () {
+//     var $accordian = $(this);
+//     $accordian.find('.accordion-head').on('click', function () {
+//         $(this).removeClass('open').addClass('close');
+//         $accordian.find('.accordion-body').slideUp();
+//         if (!$(this).next().is(':visible')) {
+//             $(this).removeClass('close').addClass('open');
+//             $(this).next().slideDown();
+//         }
+//     });
+// });

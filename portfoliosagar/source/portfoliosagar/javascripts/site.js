@@ -27,18 +27,6 @@ $(document).ready(function() {
 });
 
 
-
-//FILTERING PROJECT'S THUMBNAILS
-
-// $(document).ready(function(){ 
-//   $('.box').filter('.service-design-project').css("display", "none");
-// });
-$('#filter-product').on('click', function (e) {
-  e.preventDefault();
-  $('.box').filter('.service-design-project').css("display", "none");
-});
-
-
 //LOAD MORE PROJECTS
 $(function () {
   $(".project-row").slice(0, 2).show();
@@ -110,7 +98,7 @@ $(document).ready(function () {
               menu = target;
           $target = $(target);
           $('html, body').stop().animate({
-              'scrollTop': $target.offset().top + 2
+              'scrollTop': $target.offset().top+2
           }, 500, 'swing', function () {
               window.location.hash = target;
               $(document).on("scroll", onScroll);
@@ -133,9 +121,6 @@ function onScroll(event){
         }
     });
 }
-
-
-
 
 
 
