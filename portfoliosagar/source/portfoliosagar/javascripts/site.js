@@ -29,18 +29,18 @@ $(document).ready(function() {
 
 //LOAD MORE PROJECTS
 $(function () {
-  $(".project-row").slice(0, 2).show();
+  $(".box").slice(0, 6).show();
   $("#loadMore").on('click', function (e) {
     e.preventDefault();
-  $(".project-row:hidden").slice(0, 2).slideDown("slow", function() {
-    $( "img" ).fadeIn( 12000 );
+  $(".box:hidden").slice(0, 6).slideDown("slow", function() {
+    $( "img" ).fadeIn( 3000 );
   });
-  if ($(".project-row:hidden").length == 0) {
+  if ($(".box:hidden").length == 0) {
     $("#load").fadeIn('slow');
   }
     $('html,body').animate({
       scrollTop: $(this).offset().top
-  }, 6000);
+  }, 3000);
   });
 });
 

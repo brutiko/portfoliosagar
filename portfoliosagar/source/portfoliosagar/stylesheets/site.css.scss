@@ -239,17 +239,18 @@ a {
   background-position: 0 4px;
 }
 
-.project-row {
+/*.project-row {
   display: none;
-}
+}*/
 
 .box {
+  display: none;
   box-sizing: border-box;
   position: relative;
   font-family: 'Montserrat', sans-serif;
   float: left;
   margin: 0.5%;
-  width: 32.6%;
+  width: 32%;
 
   a img {
     display: block;
@@ -260,13 +261,13 @@ a {
     display: block;
   }
 
-  &:first-child {
+  /*&:first-child {
     margin-left: 0;
   }
 
   &:last-child {
     margin-right: 0;
-  }
+  }*/
 }
 
 .box-hover {
