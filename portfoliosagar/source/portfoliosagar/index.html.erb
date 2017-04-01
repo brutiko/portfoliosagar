@@ -7,6 +7,7 @@ title: Portfolio Sagar Satam
     <nav class="menu" id="menu-scroll">
       <h1 class="logo"><a href="/portfoliosagar/index.html">Sagar Satam logo</a></h1>
       <div id="menu-center">
+        <a href="#" id="menu-icon"></a>
         <ul class="menu-links">
           <li><a href="#home" id="homelink" class="active">HOME</a></li>
           <li><a href="#my-work" id="my-worklink">MY WORK</a></li>
@@ -47,14 +48,14 @@ title: Portfolio Sagar Satam
       <h1>MY <br/>WORK.</h1>
       <h3>Collection of my work from product and service design.</h3>
       <ul class="my-work-filters">
-        <li><a href="" class="rounded-button">ALL</a></li>
-        <li><a href="" class="rounded-button">PRODUCT DESIGN</a></li>
-        <li><a href="" class="rounded-button">SERVICE DESIGN</a></li>
+        <li><a href="#" class="rounded-button">ALL</a></li>
+        <li><a href="#filter-product" class="rounded-button" id="product-design-filter">PRODUCT DESIGN</a></li>
+        <li><a href="#" class="rounded-button">SERVICE DESIGN</a></li>
       </ul>
 
       <div class="my-work-projects">
         <ul class="project-row">
-          <li class="box">
+          <li class="box product-design-project">
             <a href="/portfoliosagar/projects/blinky-clyde-inky-pinky.html" class="thumb-style">
               <img src="/portfoliosagar/images/thumb-pacman.png" alt="pacman">
               <div class="box-hover">
@@ -63,7 +64,7 @@ title: Portfolio Sagar Satam
               </div>
             </a>
           </li>
-          <li class="box">
+          <li class="box service-design-project">
             <a href="/portfoliosagar/projects/save.html" class="thumb-style">
               <img src="/portfoliosagar/images/thumb-pacman.png" alt="">
               <div class="box-hover">
@@ -72,7 +73,7 @@ title: Portfolio Sagar Satam
               </div>
             </a>
           </li>
-          <li class="box">
+          <li class="box product-design-project">
             <a href="/portfoliosagar/projects/persono.html" class="thumb-style">
               <img src="/portfoliosagar/images/thumb-pacman.png" alt="">
               <div class="box-hover">
@@ -84,7 +85,7 @@ title: Portfolio Sagar Satam
         </ul>
         
         <ul class="project-row">
-          <li class="box">
+          <li class="box service-design-project">
             <a href="/portfoliosagar/projects/kin.html" class="thumb-style">
               <img src="/portfoliosagar/images/thumb-pacman.png" alt="">
               <div class="box-hover">
@@ -93,7 +94,7 @@ title: Portfolio Sagar Satam
               </div>
             </a>
           </li>
-          <li class="box">
+          <li class="box product-design-project">
             <a href="/portfoliosagar/projects/mumbai-street-furniture.html" class="thumb-style">
               <img src="/portfoliosagar/images/thumb-pacman.png" alt="">
               <div class="box-hover">
@@ -102,7 +103,7 @@ title: Portfolio Sagar Satam
               </div>
             </a>
           </li>
-          <li class="box">
+          <li class="box service-design-project">
             <a href="/portfoliosagar/projects/terme-di-levico.html" class="thumb-style">
               <img src="/portfoliosagar/images/thumb-pacman.png" alt="">
               <div class="box-hover">
@@ -114,7 +115,7 @@ title: Portfolio Sagar Satam
         </ul>
 
         <ul class="project-row">
-          <li class="box">
+          <li class="box product-design-project">
             <a href="/portfoliosagar/projects/hot-n-cold.html" class="thumb-style">
               <img  class="fadeInDown" src="/portfoliosagar/images/thumb-pacman.png" alt="">
               <div class="box-hover">
@@ -123,7 +124,7 @@ title: Portfolio Sagar Satam
               </div>
             </a>
           </li>
-          <li class="box">
+          <li class="box service-design-project">
             <a href="/portfoliosagar/projects/talking-heads.html" class="thumb-style">
               <img class="fadeInDown" src="/portfoliosagar/images/thumb-pacman.png" alt="">
               <div class="box-hover">
@@ -132,7 +133,7 @@ title: Portfolio Sagar Satam
               </div>
             </a>
           </li>
-          <li class="box">
+          <li class="box product-design-project">
             <a href="/portfoliosagar/projects/cadbury-exhibition-space.html" class="thumb-style">
               <img class="fadeInDown" src="/portfoliosagar/images/thumb-pacman.png" alt="">
               <div class="box-hover">
@@ -145,7 +146,7 @@ title: Portfolio Sagar Satam
 
 
         <ul class="project-row">
-          <li class="box">
+          <li class="box service-design-project">
             <a href="/portfoliosagar/projects/philips-brand-strategy.html" class="thumb-style">
               <img src="/portfoliosagar/images/thumb-pacman.png" alt="">
               <div class="box-hover">
@@ -154,7 +155,7 @@ title: Portfolio Sagar Satam
               </div>
             </a>
           </li>
-          <li class="box">
+          <li class="box product-design-project">
             <a href="/portfoliosagar/projects/call-response.html" class="thumb-style">
               <img src="/portfoliosagar/images/thumb-pacman.png" alt="">
               <div class="box-hover">
@@ -163,7 +164,7 @@ title: Portfolio Sagar Satam
               </div>
             </a>
           </li>
-          <li class="box">
+          <li class="box service-design-project">
             <a href="/portfoliosagar/projects/research-workshop-museum.html" class="thumb-style">
               <img src="/portfoliosagar/images/thumb-pacman.png" alt="">
               <div class="box-hover">
@@ -220,7 +221,10 @@ title: Portfolio Sagar Satam
     <div class="how-i-work-wrapper">
       <div class="how-i-work-steps">
         <section class="process-step first">
-          <article>
+          <div class="step-name accordion first-accordion">
+            <h2>+ RESEARCH & EMPATHISE</h2>
+          </div>
+          <article class="process-description first-accordion-step">
             <ul>
               <li class="process-method">
                 <object height="100%" width="100%" data="/portfoliosagar/images/icon-co-create.svg" type="image/svg+xml"></object>
@@ -265,7 +269,10 @@ title: Portfolio Sagar Satam
         </section>
 
         <section class="process-step second">
-          <article>
+          <div class="step-name accordion second-accordion">
+            <h2>+ ANALYSE & DEFINE</h2>
+          </div>
+          <article class="process-description second-accordion-step">
             <ul>
               <li class="process-method">
                 <object height="100%" width="100%" data="/portfoliosagar/images/icon-personas.svg" type="image/svg+xml"></object>
@@ -306,7 +313,10 @@ title: Portfolio Sagar Satam
         </section>
         
         <section class="process-step third">
-          <article>
+          <div class="step-name accordion third-accordion">
+            <h2>+ IDEATE</h2>
+          </div>
+          <article class="process-description third-accordion-step">
             <ul>
               <li class="process-method">
                 <object height="100%" width="100%" data="/portfoliosagar/images/icon-user-experience.svg" type="image/svg+xml"></object>
@@ -347,7 +357,10 @@ title: Portfolio Sagar Satam
         </section>
 
         <section class="process-step forth">
-          <article>
+          <div class="step-name accordion forth-accordion">
+            <h2>+ PROTOTYPE</h2>
+          </div>
+          <article class="process-description forth-accordion-step">
             <ul>
               <li class="process-method">
                 <object height="100%" width="100%" data="/portfoliosagar/images/icon-touchpoint-development.svg" type="image/svg+xml"></object>
@@ -380,7 +393,10 @@ title: Portfolio Sagar Satam
         </section>
 
         <section class="process-step fifth">
-          <article>
+          <div class="step-name accordion fifth-accordion">
+            <h2>+ DELIVER</h2>
+          </div>
+          <article class="process-description fifth-accordion-step">
             <ul>
               <li class="process-method">
                 <object height="100%" width="100%" data="/portfoliosagar/images/icon-implementation.svg" type="image/svg+xml"></object>
@@ -609,7 +625,7 @@ title: Portfolio Sagar Satam
       <h3>If you want to contact me about anything,<br/> feel free to get in touch below!</h3>
 
       <div>
-        <div id="contact-form">
+        <!-- <div id="contact-form" class="form-style">
           <div id="wufoo-z14rg7450wf9ey5">
   Fill out my <a href="https://sagarsatam.wufoo.com/forms/z14rg7450wf9ey5">online form</a>.
   </div>
@@ -629,7 +645,7 @@ title: Portfolio Sagar Satam
   var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
   try { z14rg7450wf9ey5 = new WufooForm();z14rg7450wf9ey5.initialize(options);z14rg7450wf9ey5.display(); } catch (e) {}};
   var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-  })(document, 'script');</script>
+  })(document, 'script');</script> -->
 
         </div>
         <div class="contacts-text">

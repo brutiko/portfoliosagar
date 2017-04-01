@@ -28,6 +28,17 @@ $(document).ready(function() {
 
 
 
+//FILTERING PROJECT'S THUMBNAILS
+
+// $(document).ready(function(){ 
+//   $('.box').filter('.service-design-project').css("display", "none");
+// });
+$('#filter-product').on('click', function (e) {
+  e.preventDefault();
+  $('.box').filter('.service-design-project').css("display", "none");
+});
+
+
 //LOAD MORE PROJECTS
 $(function () {
   $(".project-row").slice(0, 2).show();
@@ -60,6 +71,7 @@ $(window).scroll(function () {
   }
 });
 
+
 //LOAD MORE POSTS
 $(function () {
   $(".post-row").slice(0, 1).show();
@@ -83,25 +95,28 @@ $(document).ready(function () {
     $(document).on("scroll", onScroll);
     
     //smoothscroll
-    $('a[href^="#"]').on('click', function (e) {
-        e.preventDefault();
-        $(document).off("scroll");
+    var nav = $('.menu');
+    if (nav.length) {
+      $('a[href^="#"]').on('click', function (e) {
+          e.preventDefault();
+          $(document).off("scroll");
+          
+          $('a').each(function () {
+              $(this).removeClass('active');
+          })
+          $(this).addClass('active');
         
-        $('a').each(function () {
-            $(this).removeClass('active');
-        })
-        $(this).addClass('active');
-      
-        var target = this.hash,
-            menu = target;
-        $target = $(target);
-        $('html, body').stop().animate({
-            'scrollTop': $target.offset().top+2
-        }, 500, 'swing', function () {
-            window.location.hash = target;
-            $(document).on("scroll", onScroll);
-        });
-    });
+          var target = this.hash,
+              menu = target;
+          $target = $(target);
+          $('html, body').stop().animate({
+              'scrollTop': $target.offset().top + 2
+          }, 500, 'swing', function () {
+              window.location.hash = target;
+              $(document).on("scroll", onScroll);
+          });
+      });
+    }
 });
 
 function onScroll(event){
