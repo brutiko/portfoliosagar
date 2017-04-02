@@ -66,21 +66,24 @@ a {
   }
 }
 
-.logo {
-  text-indent: -10000px;
-  background: url(/portfoliosagar/images/logo-sagar-satam.png) no-repeat;
-  height: 30px;
-  width: 40px;
+#main-menu .logo {
   float: left;
-  margin-right: 20px;
+  margin: 0 20px 0 0;
+  padding: 0;
+  width: 45px;
+  height: 30px;
+  display: block;
+  z-index: -1;
 
-  a {
-    display: block;
+  object {
+    z-index: -2;
+    pointer-events: none;
   }
+}
 
-  a:hover {
-    border: none;
-  }
+#main-menu .logo:hover {
+  border: none;
+  cursor: pointer;
 }
 
 #menu-center .active {
@@ -426,6 +429,13 @@ footer {
 .footer-greetings {
   float: left;
   width: 30%;
+}
+
+.footer-rights .logo-svg {
+  width: 45px;
+  height: 30px;
+  display: block;
+  margin-bottom: 10px;
 }
 
 .footer-greetings span {
