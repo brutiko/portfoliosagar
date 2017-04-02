@@ -33,14 +33,14 @@ $(function () {
   $("#loadMore").on('click', function (e) {
     e.preventDefault();
   $(".box:hidden").slice(0, 6).slideDown("slow", function() {
-    $( "img" ).fadeIn( 3000 );
+    $( "img" ).fadeIn(2000);
   });
   if ($(".box:hidden").length == 0) {
     $("#load").fadeIn('slow');
   }
     $('html,body').animate({
       scrollTop: $(this).offset().top
-  }, 3000);
+  }, 2000);
   });
 });
 
@@ -62,18 +62,18 @@ $(window).scroll(function () {
 
 //LOAD MORE POSTS
 $(function () {
-  $(".post-row").slice(0, 1).show();
+  $(".post-thumb").slice(0, 3).show();
   $("#load-more-posts").on('click', function (e) {
   e.preventDefault();
-  $(".post-row:hidden").slice(0, 1).slideDown("slow", function() {
-    $( ".post-thumb" ).fadeIn( 12000 );
+  $(".post-thumb:hidden").slice(0, 3).slideDown("slow", function() {
+    $( ".post-thumb" ).fadeIn(2000);
   });
-  if ($("post-row:hidden").length == 0) {
+  if ($("post-thumb:hidden").length == 0) {
   $("#load").fadeOut('slow');
   }
   $('html,body').animate({
   scrollTop: $(this).offset().top
-  }, 6000);
+  }, 2000);
   });
 });
 
