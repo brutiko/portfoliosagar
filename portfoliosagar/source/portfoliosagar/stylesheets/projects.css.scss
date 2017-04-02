@@ -19,7 +19,25 @@
 	position: static;
 }
 
+#project-images-wrapper .project-process-images {
+  display: none;
+}
 
+#load-more-project-images {
+  width: 100%;
+  background: #f5f5f5;
+  padding: 10px 0;
+  margin: 0 0 20px;
+
+  span {
+    margin: auto;
+  }
+
+  p {
+    font-size: 14px;
+    margin: 5px 0 0;
+  }
+}
 
 /* Filtering */
 

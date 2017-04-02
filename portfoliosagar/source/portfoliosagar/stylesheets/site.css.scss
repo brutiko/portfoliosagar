@@ -373,10 +373,15 @@ a {
   }
 }
 
-
 /* READ MORE */
 
 #about-me { 
+
+  .read-more {
+    color: #53a8b7;
+    font-size: 14px;
+  }
+
   .read-more-state {
     display: none;
   }
@@ -396,11 +401,11 @@ a {
   }
 
   .read-more-state ~ .read-more-trigger:before {
-    content: 'Show more';
+    content: '+ Show more';
   }
 
   .read-more-state:checked ~ .read-more-trigger:before {
-    content: 'Show less';
+    content: '- Show less';
   }
 }
 
@@ -852,7 +857,14 @@ footer {
 
   img {
     max-width: 100%;
-    margin-bottom: 10px;
+    margin: 20px 0;
+  }
+
+  .credits-text {
+    font-size: 14px;
+    margin-bottom: 5px;
+    line-height: 24px;
+    font-weight: 300;
   }
 }
 
