@@ -120,7 +120,7 @@ function onScroll(event){
             currLink.removeClass("active");
         }
     });
-}
+};
 
 // ACCORDION
 
@@ -154,5 +154,18 @@ if ($('#back-to-top').length) {
             scrollTop: 0
         }, 3000);
     });
-}
+};
+
+// FILTER PROJECTS
+
+// var $btns = $('.btn').click(function() {
+//   if (this.id == 'all') {
+//     $('#parent > div').fadeIn(450);
+//   } else {
+//     var $el = $('.' + this.id).fadeIn(450);
+//     $('#parent > div').not($el).hide();
+//   }
+//   $btns.removeClass('active');
+//   $(this).addClass('active');
+// })
 

@@ -194,12 +194,8 @@ a {
   background: #f5f5f5;
 }
 
-.my-work-filters {
-  margin: 60px 0 40px;
-
-  li {
-    display: inline;  
-  }
+.my-work-projects {
+  padding-top: 20px;
 }
 
 .rounded-button {
@@ -242,9 +238,9 @@ a {
   background-position: 0 4px;
 }
 
-/*.project-row {
-  display: none;
-}*/
+.project-row {
+  margin-top: 20px;
+}
 
 .box {
   display: none;
@@ -409,6 +405,48 @@ a {
   }
 }
 
+
+/* FILTER PROJECTS */
+
+input[type="radio"] {
+    display:none;
+}
+
+input[type="radio"][id="reset"]:checked + label,
+input[type="radio"][id="product-design-project"]:checked + label,
+input[type="radio"][id="service-design-project"]:checked + label {
+  background:#53a8b7;
+  color: #fff;
+}
+
+input[type="radio"][id="product-design-project"]:checked ~ .project-row .box.tile.service-design-project {
+  width:0;
+  height:0;
+  padding:0;
+  margin:0;
+  opacity:0;
+}
+
+input[type="radio"][id="service-design-project"]:checked ~ .project-row .box.tile.product-design-project {
+  width:0;
+  height:0;
+  padding:0;
+  margin:0;
+  opacity:0;
+}
+
+.tile {
+  transition:all 1s;
+}
+.green {
+  background:#66dd99;
+}
+.blue {
+  background:#6666ff;
+}
+.red {
+  background:#ff4466;
+}
 
 /* FOOTER */
 
