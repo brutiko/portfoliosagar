@@ -25,10 +25,12 @@
   </head>
 
   <body class="portfoliosagar portfoliosagar_index">
-    <div class="menu-wrapper">
+    <div class="menu-wrapper" id="main-menu">
   <div class="top-menu">
     <nav class="menu" id="menu-scroll">
-      <h1 class="logo"><a href="/portfoliosagar/index.html">Sagar Satam logo</a></h1>
+      <a href="/portfoliosagar/index.html" class="logo">
+        <object height="100%" width="100%" data="/portfoliosagar/images/logo-sagar-satam.svg" type="image/svg+xml" title="Sagar Satam Logo" alt="Sagar Satam Logo"></object>
+      </a>
       <div id="menu-center">
         <a href="#" id="menu-icon"></a>
         <ul class="menu-links">
@@ -55,7 +57,7 @@
     <div class="container">
       <div class="content">
         <h1>Hello.<br/>I'm Sagar Satam.</h1>
-        <h2>I’m a <span>Product & Service</span> Designer who loves </br>to develop innovative products and joyful experiences.</h2>
+        <h2>I’m a <span>Product & Service</span> Designer who loves </br>to develop innovative products and meaningful experiences.</h2>
         <div>
           <a href="/portfoliosagar/index.html#my-work" class="arrow-down-wrapper">
             <div class="arrow-down icon-scroll"></div>
@@ -66,133 +68,197 @@
     </div>
   </section>
 
+  <!-- MY WORK SECTION | STARTS HERE -->
   <section class="wrapper" id="my-work">
     <div class="container">
       <h1>MY <br/>WORK.</h1>
-      <h3>Collection of my work from product and service design.</h3>
-      <ul class="my-work-filters">
-        <li><a href="#" class="rounded-button">ALL</a></li>
-        <li><a href="#filter-product" class="rounded-button" id="product-design-filter">PRODUCT DESIGN</a></li>
-        <li><a href="#" class="rounded-button">SERVICE DESIGN</a></li>
-      </ul>
+      <h3>As a designer I have worked on various Product and Service Design projects. Here are few of my works.</h3>
 
       <div class="my-work-projects">
+
+        <input type="radio" id="reset" name="color"/>
+        <label for="reset" class="rounded-button">ALL</label>
+        
+        <input type="radio" id="product-design-project" name="color" />
+        <label for="product-design-project" class="rounded-button">PRODUCT DESIGN</label>
+        
+        <input type="radio" id="service-design-project" name="color"/>
+        <label for="service-design-project" class="rounded-button">SERVICE DESIGN</label>
+
         <ul class="project-row">
-          <li class="box product-design-project">
+
+          <!-- Blinky Clyde Inky Pinky -->
+          <li class="box tile product-design-project">
             <a href="/portfoliosagar/projects/blinky-clyde-inky-pinky.html" class="thumb-style">
-              <img src="/portfoliosagar/images/thumb-pacman.png" alt="pacman">
+              <img src="/portfoliosagar/images/thumb-pacman.jpg" alt="Blinky Clyde Inky Pinky Project" title="Blinky Clyde Inky Pinky Project">
               <div class="box-hover">
                 <span>PRODUCT DESIGN</span>
                 <h1>Blinky Clyde Inky Pinky</h1>
               </div>
             </a>
           </li>
-          <li class="box service-design-project">
-            <a href="/portfoliosagar/projects/save.html" class="thumb-style">
-              <img src="/portfoliosagar/images/thumb-pacman.png" alt="">
+
+          <!-- Hive -->
+          <li class="box tile service-design-project">
+            <a href="/portfoliosagar/projects/hive.html" class="thumb-style">
+              <img src="/portfoliosagar/images/thumb-hive.jpg" alt="Hive Project" title="Hive Project">
               <div class="box-hover">
                 <span>SERVICE DESIGN</span>
-                <h1>Save</h1>
+                <h1>Hive</h1>
               </div>
             </a>
           </li>
-          <li class="box product-design-project">
+
+          <!-- Persono -->
+          <li class="box tile product-design-project">
             <a href="/portfoliosagar/projects/persono.html" class="thumb-style">
-              <img src="/portfoliosagar/images/thumb-pacman.png" alt="">
+              <img src="/portfoliosagar/images/thumb-persono.jpg" alt="Persono Project" title="Persono Project">
               <div class="box-hover">
                 <span>PRODUCT DESIGN</span>
                 <h1>Persono</h1>
               </div>
             </a>
           </li>
-        </ul>
-        
-        <ul class="project-row">
-          <li class="box service-design-project">
-            <a href="/portfoliosagar/projects/kin.html" class="thumb-style">
-              <img src="/portfoliosagar/images/thumb-pacman.png" alt="">
+
+          <!-- Save -->
+          <li class="box tile service-design-project">
+            <a href="/portfoliosagar/projects/save.html" class="thumb-style">
+              <img src="/portfoliosagar/images/thumb-save.jpg" alt="Save Project" title="Save Project">
               <div class="box-hover">
                 <span>SERVICE DESIGN</span>
-                <h1>Kin</h1>
+                <h1>Save</h1>
               </div>
             </a>
           </li>
-          <li class="box product-design-project">
+
+          <!-- Mumbai Street Furniture -->
+          <li class="box tile product-design-project">
             <a href="/portfoliosagar/projects/mumbai-street-furniture.html" class="thumb-style">
-              <img src="/portfoliosagar/images/thumb-pacman.png" alt="">
+              <img src="/portfoliosagar/images/thumb-street-furniture.jpg" alt="Mumbai Street Furniture" title="Mumbai Street Furniture Project">
               <div class="box-hover">
                 <span>PRODUCT DESIGN</span>
                 <h1>Mumbai Street Furniture</h1>
               </div>
             </a>
           </li>
-          <li class="box service-design-project">
-            <a href="/portfoliosagar/projects/terme-di-levico.html" class="thumb-style">
-              <img src="/portfoliosagar/images/thumb-pacman.png" alt="">
+
+          <!-- Kin -->
+          <li class="box tile service-design-project">
+            <a href="/portfoliosagar/projects/kin.html" class="thumb-style">
+              <img src="/portfoliosagar/images/thumb-kin.jpg" alt="kin project" title="kin project">
               <div class="box-hover">
                 <span>SERVICE DESIGN</span>
-                <h1>Terme Di Levico</h1>
+                <h1>Kin</h1>
               </div>
             </a>
           </li>
-        </ul>
 
-        <ul class="project-row">
-          <li class="box product-design-project">
+          <!-- Hot 'n' Cold -->
+          <li class="box tile product-design-project">
             <a href="/portfoliosagar/projects/hot-n-cold.html" class="thumb-style">
-              <img  class="fadeInDown" src="/portfoliosagar/images/thumb-pacman.png" alt="">
+              <img  class="fadeInDown" src="/portfoliosagar/images/thumb-teapot.jpg" alt="Hot n cold Project" title="Hot n cold projects">
               <div class="box-hover">
                 <span>PRODUCT DESIGN</span>
-                <h1>Hot n Cold</h1>
+                <h1>Hot 'n' Cold</h1>
               </div>
             </a>
           </li>
-          <li class="box service-design-project">
-            <a href="/portfoliosagar/projects/talking-heads.html" class="thumb-style">
-              <img class="fadeInDown" src="/portfoliosagar/images/thumb-pacman.png" alt="">
+
+          <!-- Levico Terme -->
+          <li class="box tile service-design-project">
+            <a href="/portfoliosagar/projects/terme-di-levico.html" class="thumb-style">
+              <img class="fadeInDown" src="/portfoliosagar/images/thumb-terme-di-levico.jpg" alt="Levico Terme" title="Levico terme">
               <div class="box-hover">
                 <span>SERVICE DESIGN</span>
-                <h1>Talking Heads</h1>
+                <h1>Levico Terme & Sports Medical Centre</h1>
               </div>
             </a>
           </li>
-          <li class="box product-design-project">
+
+          <!-- Cadbury Exhibition Space -->
+          <li class="box tile product-design-project">
             <a href="/portfoliosagar/projects/cadbury-exhibition-space.html" class="thumb-style">
-              <img class="fadeInDown" src="/portfoliosagar/images/thumb-pacman.png" alt="">
+              <img class="fadeInDown" src="/portfoliosagar/images/thumb-cadbury.jpg" alt="Cadbury Exhibition Space Project" title="Cadbury Exhibition Space Project">
               <div class="box-hover">
                 <span>PRODUCT DESIGN</span>
                 <h1>Cadbury Exhibition Space</h1>
               </div>
             </a>
           </li>
-        </ul>
 
+          <!-- Talking Heads -->
+          <li class="box tile service-design-project">
+            <a href="/portfoliosagar/projects/talking-heads.html" class="thumb-style">
+              <img src="/portfoliosagar/images/thumb-talking-head.jpg" alt="Talking Heads Project" title="Talking Heads Project">
+              <div class="box-hover">
+                <span>SERVICE DESIGN</span>
+                <h1>Talking Heads</h1>
+              </div>
+            </a>
+          </li>
 
-        <ul class="project-row">
-          <li class="box service-design-project">
+          <!-- Barrister Sofa -->
+          <li class="box tile product-design-project">
+            <a href="/portfoliosagar/projects/barrister-sofa.html" class="thumb-style">
+              <img src="/portfoliosagar/images/thumb-barrister-sofa.jpg" alt="Barrister Sofa Project" title="Barrister Sofa Project">
+              <div class="box-hover">
+                <span>PRODUCT DESIGN</span>
+                <h1>Barrister Sofa</h1>
+              </div>
+            </a>
+          </li>
+
+          <!-- Museum Research Project -->
+          <li class="box tile service-design-project">
+            <a href="/portfoliosagar/projects/research-workshop-museum.html" class="thumb-style">
+              <img src="/portfoliosagar/images/thumb-museum.jpg" alt="Museum Research Project" title="Museum Research Project">
+              <div class="box-hover">
+                <span>SERVICE DESIGN</span>
+                <h1>Museum Research Project</h1>
+              </div>
+            </a>
+          </li>
+ 
+          <!-- Gatsby Ottoman -->
+          <li class="box tile product-design-project">
+            <a href="/portfoliosagar/projects/gatsby-ottoman.html" class="thumb-style">
+              <img src="/portfoliosagar/images/thumb-gatsby.jpg" alt="Gatsby Ottoman Project" title="Gatsby Ottoman Project">
+              <div class="box-hover">
+                <span>PRODUCT DESIGN</span>
+                <h1>Gatsby Ottoman</h1>
+              </div>
+            </a>
+          </li>
+
+          <!-- Philips Brand Strategy -->
+          <li class="box tile service-design-project">
             <a href="/portfoliosagar/projects/philips-brand-strategy.html" class="thumb-style">
-              <img src="/portfoliosagar/images/thumb-pacman.png" alt="">
+              <img src="/portfoliosagar/images/thumb-philips.jpg" alt="Philips Brand Strategy Project" title="Philips Brand Strategy Project">
               <div class="box-hover">
                 <span>SERVICE DESIGN</span>
                 <h1>Philips Brand Strategy</h1>
               </div>
             </a>
           </li>
-          <li class="box product-design-project">
-            <a href="/portfoliosagar/projects/call-response.html" class="thumb-style">
-              <img src="/portfoliosagar/images/thumb-pacman.png" alt="">
+
+          <!-- Rock Vanity Table -->
+          <li class="box tile product-design-project">
+            <a href="/portfoliosagar/projects/rock-vanity-table.html" class="thumb-style">
+              <img src="/portfoliosagar/images/thumb-josmo-rock.jpg" alt="Rock Vanity Table Project" title="Rock Vanity Table Project">
               <div class="box-hover">
                 <span>PRODUCT DESIGN</span>
-                <h1>Call & Response</h1>
+                <h1>Rock Vanity Table</h1>
               </div>
             </a>
           </li>
-          <li class="box service-design-project">
-            <a href="/portfoliosagar/projects/research-workshop-museum.html" class="thumb-style">
-              <img src="/portfoliosagar/images/thumb-pacman.png" alt="">
+
+          <!-- Call & Response -->
+          <li class="box tile product-design-project">
+            <a href="/portfoliosagar/projects/call-response.html" class="thumb-style">
+              <img src="/portfoliosagar/images/thumb-pacman.jpg" alt="Call & Response Project" title="Call & Response">
               <div class="box-hover">
-                <span>SERVICE DESIGN</span>
-                <h1>Research Workshop on Museum</h1>
+                <span>PRODUCT DESIGN</span>
+                <h1>Call & Response</h1>
               </div>
             </a>
           </li>
@@ -206,12 +272,34 @@
       </a>
     </div>
   </section>
+  <!-- MY WORK SECTION | FINISH HERE -->
 
+
+  <!-- ABOUT ME SECTION | STARTS HERE -->
   <section class="wrapper" id="about-me">
     <div class="container">
       <h1>ABOUT <br/>ME.</h1>
-      <h3>Busy lifestyles mean we are constantly on the go, and this takes away fun from our everyday lives. Thus, when I design I like to add fun to functional because that is how life should be. I love designing beautiful and functional product designs, as I believe that living with beautifully designed products can bring us incredible joy, especially when they are a part of our daily lives. I am looking to make an impact.</h3>
+      <h3>Busy lifestyles mean we are constantly on the go, and this takes away fun from our everyday lives. I believe that living with beautifully designed products & services can bring us incredible joy, especially when they are a part of our daily lives.
+      <br/><br/>
+      I used to love being surrounded by products until I realized  that in recent decades services are becoming a dominant part of our economy. Information Technologies & mass digitisation increase the possibilities for services to address the basic needs of our lives. This process has been accompanied by changes in lifestyles, customs, and the culture of liquid consumer expectations. This is when i decided to shift my focus solely on products to a product-service-system design.</h3>
       <img src="/portfoliosagar/images/about-me-sagar.png" alt="about me sagar" title="About me - Sagar">
+
+      <div class="about-me-description">
+        <input type="checkbox" class="read-more-state" id="post-1" />
+
+        <h3 class="read-more-wrap">I have been growing as a Service Designer since then and I love being a part of the Service family. I like being surrounded by books and post-it filled walls with research papers and sharpie pens all over my work desk. Critical Thinking and Problem Solving are my forte, it's the first step I take towards looking at the bigger holistic picture. As a Service Designer, I have a keen interest in understanding how people think, feel and behave when they interact with any product, service or system. As this allows me to deliver an end-to-end design solution that is thoughtful and connects people’s behaviours and needs to the proper functional and emotional features.
+        <span class="read-more-target">
+        <br/>
+        <strong>I want to be a game changer!</strong>
+        <br/>
+        I strongly aspire to be a designer who designs experiences that are useful, innovative and most importantly delightful to the user. Experiences that wrap themselves around their lives and evolve with usage. Be it tangible in terms of products or intangible services, you simply cannot put a price on memorable and meaningful interactions. Overall, I want to deliver holistic experiences where both users and business benefit and grow by solving problems in a smart and sustainable way.
+        <br/>
+        I want to live a life that is seamless and stress free and create designs that bring a smile on people's faces. However “I don’t live to design, I Design to live” as I believe that the people do not need more stuff, but they need better and ultimately a better designed world.</span>
+        </h3>
+
+        <label for="post-1" class="read-more-trigger read-more"></label>
+      </div>
+
       <h2>AWARDS</h2>
       <div class="awards-wrapper">
         <ul>
@@ -231,11 +319,14 @@
       </a>
     </div>
   </section>
+  <!-- ABOUT ME SECTION | FINISH HERE -->
 
+
+  <!-- HOW I WORK SECTION | STARTS HERE -->
   <section class="wrapper" id="how-i-work">
     <div class="container">
       <h1>HOW I <br/>WORK.</h1>
-      <h3>The following is my design process. The tools and methods use depend on the requirements of the project.</h3>
+      <h3>The design process I have has been moulded after having various experiences working on projects as a student & as a professional designer. My design approach is flexible so that I can adjust it according to the different needs, constraints and expectations of the projects that i encounter.</h3>
     </div>
     <div class="how-i-work-wrapper" id="accordion-wrapper">
       <div class="how-i-work-steps">
@@ -453,40 +544,49 @@
         </section>
       </div>
     </div>
-  </section> 
+  </section>
+  <!-- HOW I WORK SECTION | FINISH HERE -->
 
+
+  <!-- MY THINKING SECTION | STARTS HERE -->
   <section class="wrapper" id="my-thinking">
     <div class="container">
       <h1>MY <br/>THINKING.</h1>
-      <h3>My opinions and views related to design. My opinions and views related to design. My opinions and views related to design.</h3>
+      <h3>Below i have shared some of my opinions on different topics that offer insights about how I think as a designer. Watch this space for more of my views as i continue my design journey.</h3>
       <div class="posts-wrapper">
         <ul class="post-row">
+
+          <!-- SERVICE DESIGN & POST-ITS -->
           <li class="post-thumb">
             <a href="/portfoliosagar/posts/service-design-post-its.html" class="post-thumb-img">
-              <img src="https://unsplash.it/800/800/?random" alt="">
+              <img src="/portfoliosagar/images/thumb-post-it.jpg" alt="Service Design & Posts its Post" title="Service Design & Posts its Post">
               <div class="img-hover"></div>
             </a>
             <div class="post-thumb-description">
               <span>VIEWPOINT</span>
               <h1>SERVICE DESIGN & POST-ITS</h1>
-              <small>16th January 2006</small>
+              <small>January 2016</small>
               <p>Nothing says creativity better than a crazy colourful mess of Post-its smeared onto the wall rather than a bunch of people with suits sitting and talking around the table.</p>
               <a href="/portfoliosagar/posts/service-design-post-its.html" class="rounded-button">READ MORE</a>
             </div>
           </li>
+
+          <!-- TOOLS FOR DESIGNING SERVICES -->
           <li class="post-thumb">
             <a href="/portfoliosagar/posts/edure-talk.html" class="post-thumb-img">
               <img src="https://unsplash.it/800/800/?random" alt="">
               <div class="img-hover"></div>
             </a>
             <div class="post-thumb-description">
-              <span>VIEWPOINT</span>
-              <h1>EDURE TALK</h1>
-              <small>16th January 2006</small>
+              <span>TALK</span>
+              <h1>TOOLS FOR DESIGNING SERVICES</h1>
+              <small>June 2016</small>
               <p>Nothing says creativity better than a crazy colourful mess of Post-its smeared onto the wall rather than a bunch of people with suits sitting and talking around the table.</p>
               <a href="/portfoliosagar/posts/edure-talk.html" class="rounded-button">READ MORE</a>
             </div>
           </li>
+
+          <!-- MUMBAI DABAWALLAS -->
           <li class="post-thumb">
             <a href="/portfoliosagar/posts/dabawalla.html" class="post-thumb-img" class="post-thumb-img">
               <img src="https://unsplash.it/800/800/?random" alt="">
@@ -494,15 +594,14 @@
             </a>
             <div class="post-thumb-description">
               <span>VIEWPOINT</span>
-              <h1>DABAWALLA</h1>
-              <small>16th January 2006</small>
+              <h1>MUMBAI DABAWALLAS</h1>
+              <small>December 2016</small>
               <p>Nothing says creativity better than a crazy colourful mess of Post-its smeared onto the wall rather than a bunch of people with suits sitting and talking around the table.</p>
               <a href="/portfoliosagar/posts/dabawalla.html" class="rounded-button">READ MORE</a>
             </div>
           </li>
-        </ul>
 
-        <ul class="post-row">
+          <!-- POST 04 -->
           <li class="post-thumb">
             <a href="" class="post-thumb-img">
               <img src="https://unsplash.it/800/800/?random" alt="">
@@ -516,6 +615,8 @@
               <a href="" class="rounded-button">READ MORE</a>
             </div>
           </li>
+
+          <!-- POST 05 -->
           <li class="post-thumb">
             <a href="" class="post-thumb-img">
               <img src="https://unsplash.it/800/800/?random" alt="">
@@ -529,6 +630,8 @@
               <a href="" class="rounded-button">READ MORE</a>
             </div>
           </li>
+
+          <!-- POST 06 -->
           <li class="post-thumb">
             <a href="" class="post-thumb-img" class="post-thumb-img">
               <img src="https://unsplash.it/800/800/?random" alt="">
@@ -545,91 +648,6 @@
           <div class="clear"></div>
         </ul>
 
-        <ul class="post-row">
-          <li class="post-thumb">
-            <a href="" class="post-thumb-img">
-              <img src="https://unsplash.it/800/800/?random" alt="">
-              <div class="img-hover"></div>
-            </a>
-            <div class="post-thumb-description">
-              <span>VIEWPOINT</span>
-              <h1>SERVICE DESIGN & POST-ITS</h1>
-              <small>16th January 2006</small>
-              <p>Nothing says creativity better than a crazy colourful mess of Post-its smeared onto the wall rather than a bunch of people with suits sitting and talking around the table.</p>
-              <a href="" class="rounded-button">READ MORE</a>
-            </div>
-          </li>
-          <li class="post-thumb">
-            <a href="" class="post-thumb-img">
-              <img src="https://unsplash.it/800/800/?random" alt="">
-              <div class="img-hover"></div>
-            </a>
-            <div class="post-thumb-description">
-              <span>VIEWPOINT</span>
-              <h1>SERVICE DESIGN & POST-ITS</h1>
-              <small>16th January 2006</small>
-              <p>Nothing says creativity better than a crazy colourful mess of Post-its smeared onto the wall rather than a bunch of people with suits sitting and talking around the table.</p>
-              <a href="" class="rounded-button">READ MORE</a>
-            </div>
-          </li>
-          <li class="post-thumb">
-            <a href="" class="post-thumb-img" class="post-thumb-img">
-              <img src="https://unsplash.it/800/800/?random" alt="">
-              <div class="img-hover"></div>
-            </a>
-            <div class="post-thumb-description">
-              <span>VIEWPOINT</span>
-              <h1>SERVICE DESIGN & POST-ITS</h1>
-              <small>16th January 2006</small>
-              <p>Nothing says creativity better than a crazy colourful mess of Post-its smeared onto the wall rather than a bunch of people with suits sitting and talking around the table.</p>
-              <a href="" class="rounded-button">READ MORE</a>
-            </div>
-          </li>
-          <div class="clear"></div>
-        </ul>
-
-        <ul class="post-row">
-          <li class="post-thumb">
-            <a href="" class="post-thumb-img">
-              <img src="https://unsplash.it/800/800/?random" alt="">
-              <div class="img-hover"></div>
-            </a>
-            <div class="post-thumb-description">
-              <span>VIEWPOINT</span>
-              <h1>SERVICE DESIGN & POST-ITS</h1>
-              <small>16th January 2006</small>
-              <p>Nothing says creativity better than a crazy colourful mess of Post-its smeared onto the wall rather than a bunch of people with suits sitting and talking around the table.</p>
-              <a href="" class="rounded-button">READ MORE</a>
-            </div>
-          </li>
-          <li class="post-thumb">
-            <a href="" class="post-thumb-img">
-              <img src="https://unsplash.it/800/800/?random" alt="">
-              <div class="img-hover"></div>
-            </a>
-            <div class="post-thumb-description">
-              <span>VIEWPOINT</span>
-              <h1>SERVICE DESIGN & POST-ITS</h1>
-              <small>16th January 2006</small>
-              <p>Nothing says creativity better than a crazy colourful mess of Post-its smeared onto the wall rather than a bunch of people with suits sitting and talking around the table.</p>
-              <a href="" class="rounded-button">READ MORE</a>
-            </div>
-          </li>
-          <li class="post-thumb">
-            <a href="" class="post-thumb-img" class="post-thumb-img">
-              <img src="https://unsplash.it/800/800/?random" alt="">
-              <div class="img-hover"></div>
-            </a>
-            <div class="post-thumb-description">
-              <span>VIEWPOINT</span>
-              <h1>SERVICE DESIGN & POST-ITS</h1>
-              <small>16th January 2006</small>
-              <p>Nothing says creativity better than a crazy colourful mess of Post-its smeared onto the wall rather than a bunch of people with suits sitting and talking around the table.</p>
-              <a href="" class="rounded-button">READ MORE</a>
-            </div>
-          </li>
-          <div class="clear"></div>
-        </ul>
         <div class="clear"></div>
       </div>
       <a href="#" class="show-more" id="load-more-posts">
@@ -638,14 +656,17 @@
       </a>
     </div>
   </section>  
+  <!-- MY THINKING SECTION | FINISH HERE -->
 
+
+  <!-- CONTACT SECTION | STARTS HERE -->
   <section class="wrapper" id="contact-me">
     <div class="container">
-      <h1>CONTACT <br/>ME.</h1>
-      <h3>If you want to contact me about anything,<br/> feel free to get in touch below!</h3>
+      <h1>SAY<br/>HELLO.</h1>
+      <h3>Feel free to get in touch with me below.</h3>
 
       <div>
-        <!-- <div id="contact-form" class="form-style">
+        <div id="contact-form" class="form-style">
           <div id="wufoo-z14rg7450wf9ey5">
   Fill out my <a href="https://sagarsatam.wufoo.com/forms/z14rg7450wf9ey5">online form</a>.
   </div>
@@ -665,37 +686,47 @@
   var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
   try { z14rg7450wf9ey5 = new WufooForm();z14rg7450wf9ey5.initialize(options);z14rg7450wf9ey5.display(); } catch (e) {}};
   var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-  })(document, 'script');</script> -->
+  })(document, 'script');</script>
 
         </div>
         <div class="contacts-text">
           <p>Or you can connect with me directly at:</p>
-          <span>sagar.satam25@gmail.com</span>
-          <span>+39 329 857 3123</span>
-          <p>I look forward to hearing from you!</p>
+          <div>
+            <object height="100%" width="100%" data="/portfoliosagar/images/icon-mail.svg" type="image/svg+xml"></object>
+            <span>sagar.satam25@gmail.com</span>
+          </div>
+          <div>
+            <object height="100%" width="100%" data="/portfoliosagar/images/icon-phone.svg" type="image/svg+xml"></object>
+            <span>+39 329 857 3123</span>
+          </div>
+          <div>
+            <object height="100%" width="100%" data="/portfoliosagar/images/icon-location.svg" type="image/svg+xml"></object>
+            <span>Milan, Italy</span>
+          </div>
+          <!-- <p>I look forward to hearing from you!</p> -->
         </div>
       </div>
     </div>
+  </section>
+  <!-- CONTACT SECTION | FINISH HERE -->
 
+  <!-- <div>
     <p class="totop"> 
       <a href="#top">Back to top</a> 
     </p>
-  </section>
+  </div> -->
 </div>  
+
+<div>
+    <a href="#" id="back-to-top" title="Back to top">&uarr;</a>
+  </div>
 
   </body>
 
   <footer class="wrapper">
     <div class="container">
-      <div class="footer-rights">
-        <h1 class="logo">Sagar Satam logo</h1>
-        <small>All rights reserved © 2017 Sagar Satam</small>
-      </div>
-      <div class="footer-greetings">
-        <span>Happy Wednesday!</span>
-      </div>
       <div class="footer-keep-in-touch">
-        <h3>Keep in touch</h3>
+        <h3>KEEP IN TOUCH</h3>
         <small>sagar.satam25@gmail.com</small>
         <ul class="social-media">
           <li><a href="https://www.linkedin.com/in/satamsagar/" class="linkedin">Linkedin</a></li>
@@ -704,6 +735,13 @@
           <li><a href="http://behance.net/SagarSatam" class="behance">Behance</a></li>
         </ul>
       </div>
+      <div class="footer-rights">
+        <object class="logo-svg" height="100%" width="100%" data="/portfoliosagar/images/logo-sagar-satam.svg" type="image/svg+xml" title="Sagar Satam Logo" alt="Sagar Satam Logo"></object>
+        <small>All rights reserved ©<br/>2017 Sagar Satam</small>
+        <div class="footer-greetings">
+          <span>Happy Wednesday!</span>
+        </div>
+      </div>    
     </div>
   </footer>
 </html>

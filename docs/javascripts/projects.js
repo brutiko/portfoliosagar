@@ -37,28 +37,29 @@ function hasScrolled() {
     lastScrollTop = st;
 }
 
-
-// ACCORDION
-
-$(document).ready(function () {
-    $('.accordion-head.first-accordion').on('click', function () { $('.process-description.first-accordion-step').slideToggle( "fast"); });
-    $('.accordion-head.second-accordion').on('click', function () { $('.process-description.second-accordion-step').slideToggle( "fast"); });
-    $('.accordion-head.third-accordion').on('click', function () { $('.process-description.third-accordion-step').slideToggle( "fast"); });
-    $('.accordion-head.forth-accordion').on('click', function () { $('.process-description.forth-accordion-step').slideToggle( "fast"); });
-    $('.accordion-head.fifth-accordion').on('click', function () { $('.process-description.fifth-accordion-step').slideToggle( "fast"); });
+//LOAD MORE PROJECT PROCESS IMAGES
+$(function () {
+  $(".project-process-images").slice(0, 3).show();
+  $("#load-more-project-images").on('click', function (e) {
+  e.preventDefault();
+  $(".project-process-images:hidden").slice(0, 3).slideDown(); 
+  if ($(".project-process-images:hidden").length == 0) {
+  $("#load").fadeOut('slow');
+  }
+  $('html,body').animate({
+  scrollTop: $(this).offset().top
+  }, 1500);
+  });
 });
-    
 
-// // ACCORDION 2
 
-// $('#accordion-wrapper .accordion').each(function () {
-//     var $accordian = $(this);
-//     $accordian.find('.accordion-head').on('click', function () {
-//         $(this).removeClass('open').addClass('close');
-//         $accordian.find('.accordion-body').slideUp();
-//         if (!$(this).next().is(':visible')) {
-//             $(this).removeClass('close').addClass('open');
-//             $(this).next().slideDown();
-//         }
-//     });
-// });
+
+
+
+
+
+
+
+
+
+
