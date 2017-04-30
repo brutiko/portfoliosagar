@@ -169,3 +169,11 @@ if ($('#back-to-top').length) {
 //   $(this).addClass('active');
 // })
 
+
+// SHOW DAY OF THE WEEK
+function today() {
+  var day = new Date();
+  var dayNames = new Array ("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
+  var x = document.getElementById("myDay");
+  x.innerHTML = "Happy " + dayNames[day.getDay()] + "!";
+}
