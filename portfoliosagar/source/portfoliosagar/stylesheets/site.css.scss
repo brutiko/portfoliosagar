@@ -269,7 +269,8 @@ a {
   }*/
 }
 
-.box-hover {
+.box-hover,
+.other-projects-content .box-hover {
   display: none;
   background-color: rgba(20, 52, 78, 0.9);
   box-sizing: border-box;
@@ -301,7 +302,8 @@ a {
   h1:after { content: none; }
 }
 
-.box-hover:hover {
+.box-hover:hover,
+.other-projects-content .box-hover:hover {
   display: block;
 }
 
