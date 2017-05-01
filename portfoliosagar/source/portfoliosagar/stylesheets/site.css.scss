@@ -1023,12 +1023,36 @@ footer {
   ul {
     display: block;
     margin: auto;
+    text-align: center;
   }
 
   li {
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 10px;
   }
+
+  li a {
+    display: block;
+    width: 52px;
+    height: 52px;
+    background-image: url(/portfoliosagar/images/icons-share-social-media.png);
+  }
+
+  a p {
+    text-indent: -10000px;
+  }
+
+  a.linkedin { background-position: -65px -9px; }
+  a.pinterest { background-position: -123px -9px; }
+  a.facebook { background-position: -178px -9px; }
+  a.twitter { background-position: -8px -9px; }
+
+  a.linkedin:hover { background-position: -65px -63px; }
+  a.pinterest:hover { background-position: -123px -63px; }
+  a.facebook:hover { background-position: -178px -63px; }
+  a.twitter:hover { background-position: -8px -63px; }
+
+  
 }
 
 /* MENU SANDWICH */
