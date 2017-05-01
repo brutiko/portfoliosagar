@@ -128,7 +128,7 @@ a {
   color: #000;
   font-family: 'Nexa', sans-serif;
   font-size: 2.74em;
-  line-height: 2.666em;
+  line-height: 1.2em;
   letter-spacing: 0.0025em;
 }
 
@@ -163,7 +163,7 @@ a {
   font-size: 4em;
   font-weight: 400;
   letter-spacing: 0.0025em;
-  line-height: 3.666em;
+  line-height: 1em;
 }
 
 #home h1:after {
@@ -180,7 +180,7 @@ a {
   font-family: "Montserrat", sans-serif;
   font-size: 1.875em;
   font-weight: 100;
-  line-height: 2.111em;
+  line-height: 1.275em;
   letter-spacing: 0.0025em;
   margin-bottom: 60px;
 }
@@ -295,7 +295,7 @@ a {
     font-size: 1.875em;
     font-weight: 200;
     letter-spacing: 0.00015em;
-    line-height: 2.222em;
+    line-height: 1.25em;
   }
 
   h1:after { content: none; }
@@ -614,6 +614,7 @@ footer {
 
   p {
     font-weight: 100;
+    line-height: 1.375em;
   }
 
   .rounded-button {
@@ -692,7 +693,7 @@ footer {
   p {
     font-size: 0.625em;
     font-weight: 300;
-    line-height: 0.777em;
+    line-height: 1.5em;
     text-align: center;
   }
 
@@ -855,13 +856,13 @@ footer {
   span {
     display: block;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
+    font-size: 0.5em;
     font-weight: 300;
     margin-bottom: 10px;
   }
 
   h1 {
-    font-size: 2em;
+    font-size: 1em;
     font-family: 'Nexa', sans-serif;
     letter-spacing: 0.0025em;
   }
@@ -878,7 +879,7 @@ footer {
   h2 {
     background: #14344e;
     color: #fff;
-    font-size: 1em;
+    font-size: 0.5em;
     font-weight: 200;
     padding: 3px 30px;
     display: inline-block;
@@ -887,15 +888,15 @@ footer {
   }
 
   h3 {
-    font-size: 2.5em;
+    font-size: 1em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
-    line-height: 2.666em;
+    line-height: 1.275em;
     margin-bottom: 40px;
   }
 
   .project-step-number {
-    font-size: 8.124em;
+    font-size: 4.124em;
     margin-top: 150px;
     font-family: 'Nexa Light', sans-serif;
     font-weight: 200;
@@ -903,7 +904,7 @@ footer {
   }
 
   p {
-    font-size: 1.125em;
+    font-size: 0.5em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     line-height: 1.555em;
@@ -915,16 +916,16 @@ footer {
   }
 
   .credits-text {
-    font-size: 0.875em;
+    font-size: 0.4em;
     margin-bottom: 5px;
-    line-height: 1.333em;
+    line-height: 1.5em;
     font-weight: 300;
   }
 }
 
 .post-content small {
   display: block; 
-  font-size: 0.875em;
+  font-size: 0.425em;
   margin-bottom: 30px;
 }
 
@@ -1300,6 +1301,7 @@ footer {
   .footer-greetings {
     margin: 5px 0 60px;
     width: 100%;
+    text-align: left;
 
     span {
       text-align: left;
