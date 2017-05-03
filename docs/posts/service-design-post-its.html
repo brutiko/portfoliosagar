@@ -26,7 +26,7 @@
 
   </head>
 
-  <body class="portfoliosagar portfoliosagar_posts portfoliosagar_posts_service-design-post-its">
+  <body class="portfoliosagar portfoliosagar_posts portfoliosagar_posts_service-design-post-its" onload="today()">
     <header id="menu-hide-scroll" class="">
       <div class="menu-wrapper" id="main-menu">
         <div class="top-menu">
@@ -87,10 +87,10 @@
 	<div class="sharing-content">
 		<h1>Share this project</h1>
 		<ul>
-	      <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://127.0.0.1:4567/posts/service-design-post-its.html" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&amp;url=http://127.0.0.1:4567/posts/service-design-post-its.html', 'newwindow', 'width=600, height=425'); return false;" class="linkedin">Share on Linkedin</a></li>
-	      <li><a href="javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','http://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());" class="pinterest">Share on Pinterest</a></li>
-	      <li><a href="http://www.facebook.com/sharer.php?u=http://127.0.0.1:4567/posts/service-design-post-its.html" onclick="window.open('http://www.facebook.com/sharer.php?u=http://127.0.0.1:4567/posts/service-design-post-its.html', 'newwindow', 'width=600, height=425'); return false;" class="facebook">Share on Facebook</a></li>
-	      <li><a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" onclick="window.open('https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons', 'newwindow', 'width=600, height=425'); return false;" class="twitter">Share on Twitter</a></li>
+	      <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://127.0.0.1:4567/posts/service-design-post-its.html" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&amp;url=http://127.0.0.1:4567/posts/service-design-post-its.html', 'newwindow', 'width=600, height=425'); return false;" class="linkedin"><p>Share on Linkedin</p></a></li>
+	      <li><a href="javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','http://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());" class="pinterest"><p>Share on Pinterest</p></a></li>
+	      <li><a href="http://www.facebook.com/sharer.php?u=http://127.0.0.1:4567/posts/service-design-post-its.html" onclick="window.open('http://www.facebook.com/sharer.php?u=http://127.0.0.1:4567/posts/service-design-post-its.html', 'newwindow', 'width=600, height=425'); return false;" class="facebook"><p>Share on Facebook</p></a></li>
+	      <li><a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" onclick="window.open('https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons', 'newwindow', 'width=600, height=425'); return false;" class="twitter"><p>Share on Twitter</p></a></li>
 		</ul>
 	</div>
 </div>
@@ -148,33 +148,26 @@
 
 
     </main>
+    <footer class="wrapper">
+      <div class="container">
+        <div class="footer-keep-in-touch">
+          <h3>KEEP IN TOUCH</h3>
+          <small>sagar.satam25@gmail.com</small>
+          <ul class="social-media">
+            <li><a href="https://www.linkedin.com/in/satamsagar/" class="linkedin">Linkedin</a></li>
+            <li><a href="https://instagram.com/sagar.satam/" class="instagram">Instagram</a></li>
+            <li><a href="https://pinterest.com/sagarsatam/" class="pinterest">Pinterest</a></li>
+            <li><a href="http://behance.net/SagarSatam" class="behance">Behance</a></li>
+          </ul>
+        </div>
+        <div class="footer-rights">
+          <object class="logo-svg" height="100%" width="100%" data="/portfoliosagar/images/logo-sagar-satam.svg" type="image/svg+xml" title="Sagar Satam Logo" alt="Sagar Satam Logo"></object>
+          <small>All rights reserved ©<br/>2017 Sagar Satam</small>
+          <div class="footer-greetings">
+            <p id="myDay"></p>
+          </div>
+        </div>    
+      </div>
+    </footer>
   </body>
-
-  <footer class="wrapper">
-    <div class="container">
-      <div class="footer-rights">
-        <object class="logo-svg" height="100%" width="100%" data="/portfoliosagar/images/logo-sagar-satam.svg" type="image/svg+xml" title="Sagar Satam Logo" alt="Sagar Satam Logo"></object>
-        <small>All rights reserved © 2017 Sagar Satam</small>
-      </div>
-      <div class="footer-greetings">
-        <span id="week-day">
-         <!-- <script language="JavaScript">
-            sampleDate1=new Date()
-            document.write ("HAHAH " + mdy(sampleDate1))
-          </script> -->
-        </span>
-        <p id="demo"></p>
-      </div>
-      <div class="footer-keep-in-touch">
-        <h3>Keep in touch</h3>
-        <small>sagar.satam25@gmail.com</small>
-        <ul class="social-media">
-          <li><a href="https://www.linkedin.com/in/satamsagar/" class="linkedin">Linkedin</a></li>
-          <li><a href="https://instagram.com/sagar.satam/" class="instagram">Instagram</a></li>
-          <li><a href="https://pinterest.com/sagarsatam/" class="pinterest">Pinterest</a></li>
-          <li><a href="http://behance.net/SagarSatam" class="behance">Behance</a></li>
-        </ul>
-      </div>
-    </div>
-  </footer>
 </html>

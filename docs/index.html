@@ -24,7 +24,7 @@
 
   </head>
 
-  <body class="portfoliosagar portfoliosagar_index">
+  <body class="portfoliosagar portfoliosagar_index" onload="today()">
     <div class="menu-wrapper" id="main-menu">
   <div class="top-menu">
     <nav class="menu" id="menu-scroll">
@@ -94,17 +94,6 @@
               <div class="box-hover">
                 <span>PRODUCT DESIGN</span>
                 <h1>Blinky Clyde Inky Pinky</h1>
-              </div>
-            </a>
-          </li>
-
-          <!-- Hive -->
-          <li class="box tile service-design-project">
-            <a href="/portfoliosagar/projects/hive.html" class="thumb-style">
-              <img src="/portfoliosagar/images/thumb-hive.jpg" alt="Hive Project" title="Hive Project">
-              <div class="box-hover">
-                <span>SERVICE DESIGN</span>
-                <h1>Hive</h1>
               </div>
             </a>
           </li>
@@ -263,6 +252,17 @@
             </a>
           </li>
         </ul>
+
+        <!-- Hive -->
+          <li class="box tile service-design-project">
+            <a href="/portfoliosagar/projects/hive.html" class="thumb-style">
+              <img src="/portfoliosagar/images/thumb-hive.jpg" alt="Hive Project" title="Hive Project">
+              <div class="box-hover">
+                <span>SERVICE DESIGN</span>
+                <h1>Hive</h1>
+              </div>
+            </a>
+          </li>
 
         <div class="clear"></div>
       </div>
@@ -721,27 +721,26 @@
     <a href="#" id="back-to-top" title="Back to top">&uarr;</a>
   </div>
 
-  </body>
-
-  <footer class="wrapper">
-    <div class="container">
-      <div class="footer-keep-in-touch">
-        <h3>KEEP IN TOUCH</h3>
-        <small>sagar.satam25@gmail.com</small>
-        <ul class="social-media">
-          <li><a href="https://www.linkedin.com/in/satamsagar/" class="linkedin">Linkedin</a></li>
-          <li><a href="https://instagram.com/sagar.satam/" class="instagram">Instagram</a></li>
-          <li><a href="https://pinterest.com/sagarsatam/" class="pinterest">Pinterest</a></li>
-          <li><a href="http://behance.net/SagarSatam" class="behance">Behance</a></li>
-        </ul>
-      </div>
-      <div class="footer-rights">
-        <object class="logo-svg" height="100%" width="100%" data="/portfoliosagar/images/logo-sagar-satam.svg" type="image/svg+xml" title="Sagar Satam Logo" alt="Sagar Satam Logo"></object>
-        <small>All rights reserved ©<br/>2017 Sagar Satam</small>
-        <div class="footer-greetings">
-          <span>Happy Wednesday!</span>
+    <footer class="wrapper">
+      <div class="container">
+        <div class="footer-keep-in-touch">
+          <h3>KEEP IN TOUCH</h3>
+          <small>sagar.satam25@gmail.com</small>
+          <ul class="social-media">
+            <li><a href="https://www.linkedin.com/in/satamsagar/" class="linkedin">Linkedin</a></li>
+            <li><a href="https://instagram.com/sagar.satam/" class="instagram">Instagram</a></li>
+            <li><a href="https://pinterest.com/sagarsatam/" class="pinterest">Pinterest</a></li>
+            <li><a href="http://behance.net/SagarSatam" class="behance">Behance</a></li>
+          </ul>
         </div>
-      </div>    
-    </div>
-  </footer>
+        <div class="footer-rights">
+          <object class="logo-svg" height="100%" width="100%" data="/portfoliosagar/images/logo-sagar-satam.svg" type="image/svg+xml" title="Sagar Satam Logo" alt="Sagar Satam Logo"></object>
+          <small>All rights reserved ©<br/>2017 Sagar Satam</small>
+          <div class="footer-greetings">
+            <p id="myDay"></p>
+          </div>
+        </div>    
+      </div>
+    </footer>
+  </body>
 </html>
