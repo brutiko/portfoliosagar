@@ -100,6 +100,10 @@ a {
     margin: 0 5px;
   }
 
+  li:first-child {
+    margin-left: 0;
+  }
+
   a {
     width: 20px;
     height: 20px;
@@ -458,7 +462,7 @@ footer {
   font-weight: 100;
 
   .container {
-    padding: 5% 0;
+    padding: 4% 0;
   }
 
   .logo {
@@ -472,6 +476,7 @@ footer {
 
 .footer-rights {
   float: right;
+  width: 33.3%;
 
   small {
     margin-top: 40px;
@@ -481,10 +486,10 @@ footer {
 }
 
 .footer-greetings {
-  float: right;
-  text-align: right;
-  margin-top: 20px;
+  float: left;
+  text-align: center;
   font-size: 1em;
+  width: 33.3%;
 }
 
 .footer-rights .logo-svg {
@@ -502,7 +507,7 @@ footer {
 }
 
 .footer-keep-in-touch {
-  width: 30%;
+  width: 33.3%;
   float: left;
   position: relative;
 
