@@ -68,8 +68,26 @@ html {
 .wufoo .info div{font-size:95%;font-family:inherit;color:#444444}
 .wufoo .section h3{font-size:110%;font-family:inherit;background:#FFFFFF;color:#000000}
 .wufoo .section div{font-size:85%;font-family:inherit;color:#444444}
-.wufoo label.desc, .wufoo legend.desc{font-size:95%;font-family:inherit;color:#444444}
-.wufoo li div, .wufoo li div label, .wufoo li span label{font-family:inherit;color:#444444}
+
+.wufoo label.desc, .wufoo legend.desc {
+	font-size:95%;
+	color:#333;
+	font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.wufoo li div, .wufoo li div label, 
+.wufoo li span label {
+	font-family:inherit;
+	color:#444444;
+	font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 100;
+}
 
 .wufoo input.text, .wufoo textarea.textarea, 
 .wufoo select.select, .wufoo label.choice {

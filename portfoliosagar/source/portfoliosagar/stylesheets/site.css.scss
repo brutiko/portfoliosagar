@@ -1008,7 +1008,7 @@ footer {
   width: 40%;
   float: left;
   margin-right: 80px;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 #contact-form.form-style {
@@ -1020,6 +1020,7 @@ footer {
     -moz-border-radius: 20px;
     border-radius: 20px;
     font-size: 0.875em;
+    line-height: 0.875em;
     padding: 8px 18px;
     margin-right: 10px;
     margin-bottom: 40px;
@@ -1031,8 +1032,20 @@ footer {
   }
 }
 
+#Field9 {
+  margin-right: 11px;
+}
+
+#foli9 span {
+  margin-right: 0;
+}
+
+.wufoo label {
+
+}
+
 .contacts-text {
-  padding-top: 80px;
+  padding-top: 70px;
   float: left;
 
   p {
@@ -1137,6 +1150,10 @@ footer {
     width: 80%;
   }
 
+  #menu-center .menu li {
+    display: block;
+  }
+
   .parallax {
     background-attachment: scroll;
     height: 30%;
@@ -1164,6 +1181,10 @@ footer {
 
 @media only screen and (max-width:1150px) {
   
+  #menu-center .menu li {
+    display: block;
+  }
+
   .post-content header {
     position: static;
   }
@@ -1374,30 +1395,34 @@ footer {
   }
 }
 
+/* BACK TO TOP */
 #back-to-top {
-    position: fixed;
-    bottom: 40px;
-    right: 40px;
-    z-index: 1;
-    width: 32px;
-    height: 32px;
-    text-align: center;
-    line-height: 1.666em;
-    background: orange;
-    color: #444;
-    cursor: pointer;
-    border: 0;
-    border-radius: 2px;
-    text-decoration: none;
-    transition: opacity 0.2s ease-out;
-    opacity: 0;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 1;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  line-height: 1.666em;
+  background: orange;
+  color: #444;
+  cursor: pointer;
+  border: 0;
+  border-radius: 2px;
+  text-decoration: none;
+  transition: opacity 0.2s ease-out;
+  opacity: 0;
 }
+
 #back-to-top:hover {
-    background: #e9ebec;
+  background: #e9ebec;
 }
+
 #back-to-top.show {
-    opacity: 1;
+  opacity: 1;
 }
+
 
 /* Portrait and Landscape */
 @media only screen and (max-width : 640px) {
