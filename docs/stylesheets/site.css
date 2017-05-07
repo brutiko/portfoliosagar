@@ -25,7 +25,7 @@ a {
   width: 100%;
   position: fixed;
   top: 0;
-  z-index: 1; }
+  z-index: 10; }
 
 .top-menu {
   width: 80%;
@@ -77,6 +77,8 @@ a {
   .social-media li {
     display: inline-block;
     margin: 0 5px; }
+  .social-media li:first-child {
+    margin-left: 0; }
   .social-media a {
     width: 20px;
     height: 20px;
@@ -365,24 +367,25 @@ footer {
   color: #fff;
   font-weight: 100; }
   footer .container {
-    padding: 5% 0; }
+    padding: 4% 0; }
   footer .logo {
     float: none; }
   footer .container h1:after {
     content: none; }
 
 .footer-rights {
-  float: right; }
+  float: right;
+  width: 33.3%; }
   .footer-rights small {
     margin-top: 40px;
     display: block;
     text-align: right; }
 
 .footer-greetings {
-  float: right;
-  text-align: right;
-  margin-top: 20px;
-  font-size: 1em; }
+  float: left;
+  text-align: center;
+  font-size: 1em;
+  width: 33.3%; }
 
 .footer-rights .logo-svg {
   width: 45px;
@@ -397,7 +400,7 @@ footer {
   text-align: center; }
 
 .footer-keep-in-touch {
-  width: 30%;
+  width: 33.3%;
   float: left;
   position: relative; }
   .footer-keep-in-touch h3 {
@@ -521,20 +524,22 @@ footer {
   font-size: 0.937em;
   line-height: 1.222em; }
 .process-step .first-ball {
-  background: rgba(83, 168, 183, 0.2); }
+  background: #b9dae0; }
 .process-step .second-ball {
-  background: rgba(83, 168, 183, 0.4); }
+  background: #b4d6dc; }
 .process-step .third-ball {
-  background: rgba(83, 168, 183, 0.6); }
+  background: #86c1cc; }
 .process-step .forth-ball {
-  background: rgba(83, 168, 183, 0.9); }
+  background: #62afbd; }
 .process-step .fifth-ball {
   background: #53a8b7; }
 .process-step .third-ball, .process-step .fifth-ball {
   padding: 50px 0; }
 
 .process-description {
-  display: block; }
+  display: block;
+  position: relative;
+  z-index: 1; }
 
 .process-method {
   display: inline-block;
@@ -559,8 +564,11 @@ footer {
 .step {
   display: block;
   float: left;
-  margin: 0 1%;
-  width: 120px; }
+  margin: 0 0 0 44%;
+  width: 120px;
+  position: absolute;
+  bottom: 0;
+  top: 0; }
   .step .square.right {
     border-left: 4px solid orange; }
 
@@ -574,18 +582,29 @@ footer {
 
 .step:after {
   content: "";
-  height: 60px;
   width: 4px;
   display: block;
   background: #53a8b7;
-  margin: auto; }
+  margin: auto;
+  position: absolute;
+  top: 40px;
+  bottom: 0;
+  left: 58px;
+  z-index: -1; }
 
 .first .step:before,
 .fifth .step:after {
+  content: none;
   background: transparent; }
+
+.first .step {
+  padding-top: 40px; }
 
 .line {
   height: 100%; }
+
+.process-step ul.second-wrapper-icons {
+  margin-left: 16%; }
 
 .arrow-down-wrapper {
   /*background: url(/portfoliosagar/images/arrow-scroll-down.png) no-repeat;*/
@@ -818,7 +837,8 @@ footer {
 #contact-form {
   width: 40%;
   float: left;
-  margin-right: 80px; }
+  margin-right: 80px;
+  margin-top: 30px; }
 
 #contact-form.form-style .wufoo input#saveForm.btTxt.submit {
   background: #f5f5f5;
@@ -828,6 +848,7 @@ footer {
   -moz-border-radius: 20px;
   border-radius: 20px;
   font-size: 0.875em;
+  line-height: 0.875em;
   padding: 8px 18px;
   margin-right: 10px;
   margin-bottom: 40px; }
@@ -835,8 +856,14 @@ footer {
   background: #53a8b7;
   color: #fff; }
 
+#Field9 {
+  margin-right: 11px; }
+
+#foli9 span {
+  margin-right: 0; }
+
 .contacts-text {
-  padding-top: 80px;
+  padding-top: 70px;
   float: left; }
   .contacts-text p {
     font-weight: 100; }
@@ -916,6 +943,9 @@ footer {
   .post-content {
     width: 80%; }
 
+  #menu-center .menu li {
+    display: block; }
+
   .parallax {
     background-attachment: scroll;
     height: 30%; }
@@ -935,6 +965,9 @@ footer {
     text-align: left;
     margin-top: 70px; } }
 @media only screen and (max-width: 1150px) {
+  #menu-center .menu li {
+    display: block; }
+
   .post-content header {
     position: static; }
 
@@ -1002,7 +1035,8 @@ footer {
 
   .process-step {
     display: block;
-    padding: 10px; }
+    padding: 10px;
+    position: relative; }
     .process-step ul {
       float: none;
       margin-top: 10px;
@@ -1102,6 +1136,7 @@ footer {
       left: 0; }
     .footer-keep-in-touch .social-media {
       float: left; } }
+/* BACK TO TOP */
 #back-to-top {
   position: fixed;
   bottom: 40px;

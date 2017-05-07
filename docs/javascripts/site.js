@@ -152,22 +152,10 @@ if ($('#back-to-top').length) {
         e.preventDefault();
         $('html,body').animate({
             scrollTop: 0
-        }, 3000);
+        }, 700);
     });
-};
+}
 
-// FILTER PROJECTS
-
-// var $btns = $('.btn').click(function() {
-//   if (this.id == 'all') {
-//     $('#parent > div').fadeIn(450);
-//   } else {
-//     var $el = $('.' + this.id).fadeIn(450);
-//     $('#parent > div').not($el).hide();
-//   }
-//   $btns.removeClass('active');
-//   $(this).addClass('active');
-// })
 
 
 // SHOW DAY OF THE WEEK

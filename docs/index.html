@@ -12,6 +12,9 @@
     <link href="/portfoliosagar/stylesheets/normalize.css" rel="stylesheet" />
     <link href="/portfoliosagar/stylesheets/skeleton.css" rel="stylesheet" />
     <link href="/portfoliosagar/stylesheets/typography.css" rel="stylesheet" />
+    <link href="/portfoliosagar/stylesheets/wufoo-structure.css" rel="stylesheet">
+    <link href="/portfoliosagar/stylesheets/wufoo-form.css" rel="stylesheet">
+    <link href="/portfoliosagar/stylesheets/wufoo-theme.css" rel="stylesheet">
     <link href="/portfoliosagar/stylesheets/wufoo.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800" rel="stylesheet" />
     <link href="/portfoliosagar/stylesheets/site.css" rel="stylesheet" />
@@ -19,6 +22,7 @@
 
     <script src="/portfoliosagar/javascripts/jquery-3.1.1.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/portfoliosagar/javascripts/wufoo.js"></script>
     <script src="/portfoliosagar/javascripts/site.js"></script>
     <script src="/portfoliosagar/javascripts/projects.js"></script>
 
@@ -357,7 +361,7 @@
             <div class="step">
               <span class="first-ball">RESEARCH<br/>& EMPATHISE</span>
             </div>
-            <ul>
+            <ul class="second-wrapper-icons">
               <li class="process-method">
                 <object height="100%" width="100%" data="/portfoliosagar/images/icon-observations.svg" type="image/svg+xml"></object>
                 <p>USER BEHAVIOUR<br/>OBSERVATIONS</p>
@@ -401,7 +405,7 @@
             <div class="step">
               <span class="second-ball">ANALYSE<br/>& DEFINE</span>
             </div>
-            <ul>
+            <ul class="second-wrapper-icons">
               <li class="process-method">
                 <object height="100%" width="100%" data="/portfoliosagar/images/icon-user-needs.svg" type="image/svg+xml"></object>
                 <p>USER NEEDS</p>
@@ -445,7 +449,7 @@
             <div class="step">
               <span class="third-ball">IDEATE</span>
             </div>
-            <ul>
+            <ul class="second-wrapper-icons">
               <li class="process-method">
                 <object height="100%" width="100%" data="/portfoliosagar/images/icon-triangle-ideas.svg" type="image/svg+xml"></object>
                 <p>TRIANGLE<br/>MAPPING IDEAS</p>
@@ -485,7 +489,7 @@
             <div class="step">
               <span class="forth-ball">PROTOTYPE<br/>& REFINE</span>
             </div>
-            <ul>
+            <ul class="second-wrapper-icons">
               <li class="process-method">
                 <object height="100%" width="100%" data="/portfoliosagar/images/icon-role-playing.svg" type="image/svg+xml"></object>
                 <p>ROLE PLAYING<br/>SCENARIOS</p>
@@ -525,7 +529,7 @@
             <div class="step">
               <span class="fifth-ball">DELIVER</span>
             </div>
-            <ul>
+            <ul class="second-wrapper-icons">
               <li class="process-method">
                 <object height="100%" width="100%" data="/portfoliosagar/images/icon-feedback.svg" type="image/svg+xml"></object>
                 <p>COLLECTING<br/>FEEDBACK</p>
@@ -667,26 +671,57 @@
 
       <div>
         <div id="contact-form" class="form-style">
-          <div id="wufoo-z14rg7450wf9ey5">
-  Fill out my <a href="https://sagarsatam.wufoo.com/forms/z14rg7450wf9ey5">online form</a>.
-  </div>
-  <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">HTML Forms powered by <a href="http://www.wufoo.com">Wufoo</a>.</div>
-  <script type="text/javascript">var z14rg7450wf9ey5;(function(d, t) {
-  var s = d.createElement(t), options = {
-  'userName':'sagarsatam',
-  'formHash':'z14rg7450wf9ey5',
-  'autoResize':true,
-  'height':'517',
-  'async':true,
-  'host':'wufoo.com',
-  'header':'show',
-  'ssl':true};
-  s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
-  s.onload = s.onreadystatechange = function() {
-  var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-  try { z14rg7450wf9ey5 = new WufooForm();z14rg7450wf9ey5.initialize(options);z14rg7450wf9ey5.display(); } catch (e) {}};
-  var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-  })(document, 'script');</script>
+
+          <!-- WUFOO | STARTS HERE -->
+          <div id="container" class="ltr">
+            <form id="form1" name="form1" class="wufoo topLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://sagarsatam.wufoo.com/forms/z14rg7450wf9ey5/#public">
+
+              <ul>
+                <li id="foli9" class="notranslate">
+                  <label class="desc" id="title9" for="Field9">
+                    Name <span id="req_9" class="req">*</span>
+                  </label>
+                  <span>
+                    <input id="Field9" name="Field9" type="text" class="field text fn" value="" size="17" tabindex="1" placeholder=""       required />
+                    <label for="Field9">First</label>
+                  </span>
+                  <span>
+                    <input id="Field10" name="Field10" type="text" class="field text ln" value="" size="18" tabindex="2" placeholder="" required />
+                    <label for="Field10">Last</label>
+                  </span>
+                </li>
+
+                <li id="foli3" class="notranslate">
+                  <label class="desc" id="title3" for="Field3">
+                    Email <span id="req_3" class="req">*</span> 
+                  </label>
+                  <div>
+                    <input id="Field3" name="Field3" type="email" spellcheck="false" class="field text large" value="" maxlength="255" tabindex="3"       placeholder="" required />
+                  </div>
+                </li>
+
+                <li id="foli4" class="notranslate">
+                  <label class="desc" id="title4" for="Field4">
+                    Message
+                  </label>
+                  <div>
+                    <textarea id="Field4" name="Field4" class="field textarea medium" spellcheck="true" rows="10" cols="50" tabindex="4" onkeyup="" placeholder=""></textarea>
+                  </div>
+                </li>
+                <li class="buttons">
+                  <div>
+                    <input id="saveForm" name="saveForm" class="btTxt submit" type="submit" value="Submit"/>
+                  </div>
+                </li>
+                <li class="hide">
+                  <label for="comment">Do Not Fill This Out</label>
+                  <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+                  <input type="hidden" id="idstamp" name="idstamp" value="wt5IqxrxW14J0DnbT/e/IS+4nZas9DoTvxROAK2yEI4=" />
+                </li>
+              </ul>
+            </form>
+          </div>
+          <!-- WUFOO | FINISH HERE -->
 
         </div>
         <div class="contacts-text">
@@ -717,9 +752,7 @@
   </div> -->
 </div>  
 
-<div>
-    <a href="#" id="back-to-top" title="Back to top">&uarr;</a>
-  </div>
+<a href="#" id="back-to-top" title="Back to top">&uarr;</a>
 
     <footer class="wrapper">
       <div class="container">
@@ -733,12 +766,14 @@
             <li><a href="http://behance.net/SagarSatam" class="behance">Behance</a></li>
           </ul>
         </div>
+
+        <div class="footer-greetings">
+          <p id="myDay"></p>
+        </div>
+    
         <div class="footer-rights">
           <object class="logo-svg" height="100%" width="100%" data="/portfoliosagar/images/logo-sagar-satam.svg" type="image/svg+xml" title="Sagar Satam Logo" alt="Sagar Satam Logo"></object>
           <small>All rights reserved ©<br/>2017 Sagar Satam</small>
-          <div class="footer-greetings">
-            <p id="myDay"></p>
-          </div>
         </div>    
       </div>
     </footer>
