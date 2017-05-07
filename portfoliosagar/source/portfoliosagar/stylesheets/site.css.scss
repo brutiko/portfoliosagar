@@ -29,7 +29,7 @@ a {
   width: 100%;
   position: fixed;
   top: 0;
-  z-index: 1;
+  z-index: 10;
 }
 
 .top-menu {
@@ -672,17 +672,19 @@ footer {
     line-height: 1.222em;
   }
 
-  .first-ball { background: rgba(83, 168, 183, 0.2); }
-  .second-ball { background: rgba(83, 168, 183, 0.4); }
-  .third-ball { background: rgba(83, 168, 183, 0.6); }
-  .forth-ball { background: rgba(83, 168, 183, 0.9); }
-  .fifth-ball { background: rgba(83, 168, 183, 1); }
+  .first-ball { background: #b9dae0; }
+  .second-ball { background: #b4d6dc; }
+  .third-ball { background: #86c1cc; }
+  .forth-ball { background: #62afbd; }
+  .fifth-ball { background: #53a8b7; }
 
   .third-ball, .fifth-ball { padding: 50px 0; }
 }
 
 .process-description {
   display: block;
+  position: relative;
+  z-index: 1;
 }
 
 .process-method {
@@ -715,8 +717,11 @@ footer {
 .step {
   display: block;
   float: left;
-  margin: 0 1%;
+  margin: 0 0 0 44%;
   width: 120px;
+  position: absolute;
+  bottom: 0;
+  top: 0;
 
   .square.right {
     border-left: 4px solid orange;
@@ -734,20 +739,33 @@ footer {
 
 .step:after {
   content: "";
-  height: 60px;
   width: 4px;
   display: block;
   background: #53a8b7;
   margin: auto;
+  position: absolute;
+  top: 40px;
+  bottom: 0;
+  left: 58px;
+  z-index: -1;
 }
 
 .first .step:before,
 .fifth .step:after {
+  content: none;
   background: transparent;
+}
+
+.first .step {
+  padding-top: 40px;
 }
 
 .line {
   height: 100%;
+}
+
+.process-step ul.second-wrapper-icons {
+  margin-left: 16%;
 }
 
 .arrow-down-wrapper {
@@ -990,6 +1008,7 @@ footer {
   width: 40%;
   float: left;
   margin-right: 80px;
+  margin-top: 40px;
 }
 
 #contact-form.form-style {
@@ -1231,6 +1250,7 @@ footer {
   .process-step {
     display: block;
     padding: 10px;
+    position: relative;
 
     ul {
       float: none;
