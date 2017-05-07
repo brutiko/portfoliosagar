@@ -937,6 +937,33 @@ footer {
 .step-name {
   display:none;
 }*/
+/* BACK TO TOP BUTTON */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #333;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 8px;
+  line-height: 8px;
+  height: initial; }
+  #myBtn p {
+    margin: 0;
+    padding: 0; }
+  #myBtn small {
+    font-size: 16px; }
+
+#myBtn:hover {
+  background-color: #555;
+  color: #fff; }
+
 /* MEDIA QUERIES */
 @media only screen and (max-width: 640px) {
   .project-content,
